@@ -1,6 +1,60 @@
 {
   "A1": [
     {
+      "category": "A1 – Beginner/Elementary Italian Lessons",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Articles",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-01-articles/"
+        },
+        {
+          "title": "Plurals",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-02-plurals/"
+        },
+        {
+          "title": "There is/There are",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-03-there-isare/"
+        },
+        {
+          "title": "Verbs in the present tense",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-04-verbs/"
+        },
+        {
+          "title": "Like – Piace / Piacciono",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-05-like/"
+        },
+        {
+          "title": "Adjectives",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-06-adjectives/"
+        },
+        {
+          "title": "Adverbs",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-07-adverbs/"
+        },
+        {
+          "title": "The Past",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-09-the-past/"
+        },
+        {
+          "title": "Direct and indirect pronouns",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-09-direct-indirect-pronouns/"
+        },
+        {
+          "title": "Prepositions",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-10-prepositions/"
+        },
+        {
+          "title": "Reflexive verbs",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-11-reflexive-verbs/"
+        },
+        {
+          "title": "The Impersonal Form With ‘Si’",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-12-impersonal-si/"
+        }
+      ]
+    },
+    {
       "category": "A1 – Beginner/Elementary Italian Listening Practice",
       "isScored": false,
       "items": [
@@ -701,11 +755,57 @@
         {
           "title": "Vestiti / Clothes",
           "url": "https://onlineitalianclub.com/italian-vocabulary-clothes/"
+        },
+        {
+          "title": "Free Italian Exercises",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/"
+        },
+        {
+          "title": "Online Italian Lessons",
+          "url": "https://nativespeakerteachers.com/"
         }
       ]
     }
   ],
   "A2": [
+    {
+      "category": "A2 – Pre-Intermediate Italian Lessons",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Present Progressive Tense",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-13-present-progressive-tense/"
+        },
+        {
+          "title": "Past Tense, Other Aspects",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-14-past-tense-other-aspects/"
+        },
+        {
+          "title": "The Imperative",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-15-the-imperative/"
+        },
+        {
+          "title": "The Imperfect Tense",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-16-the-imperfect-tense/"
+        },
+        {
+          "title": "The Future Simple Tense",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-17-the-future-simple-tense/"
+        },
+        {
+          "title": "Conditional Present",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-a2-3/"
+        },
+        {
+          "title": "Subjunctive Present",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-a2-4/"
+        },
+        {
+          "title": "Pronominal Verbs",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-20-pronominal-verbs/"
+        }
+      ]
+    },
     {
       "category": "A2 – Pre-Intermediate Italian Listening Practice",
       "isScored": false,
@@ -1247,11 +1347,65 @@
         {
           "title": "Zodiaco / Zodiac",
           "url": "https://onlineitalianclub.com/vocabulary-zodiac/"
+        },
+        {
+          "title": "October 3, 2014 at 1:28 pm",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/"
+        },
+        {
+          "title": "Free Italian Exercises",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/"
+        },
+        {
+          "title": "Online Italian Lessons",
+          "url": "https://nativespeakerteachers.com/"
         }
       ]
     }
   ],
   "B1": [
+    {
+      "category": "B1 – Intermediate Italian Lessons",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Passive",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-21-passive/"
+        },
+        {
+          "title": "Combined Pronouns",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-22-combined-pronouns/"
+        },
+        {
+          "title": "Conditional Past",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-23-conditional-past/"
+        },
+        {
+          "title": "Past Perfect",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-24-past-perfect/"
+        },
+        {
+          "title": "Subjunctive Past",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-25-subjunctive-past/"
+        },
+        {
+          "title": "Subjunctive Imperfect",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-26-subjunctive-imperfect/"
+        },
+        {
+          "title": "Subjunctive Past Perfect",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-27-subjunctive-past-perfect/"
+        },
+        {
+          "title": "Unreal Present",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-28-unreal-present/"
+        },
+        {
+          "title": "Unreal Past",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-29-unreal-past/"
+        }
+      ]
+    },
     {
       "category": "B1 – Intermediate Italian Listening Practice",
       "isScored": false,
@@ -1865,11 +2019,49 @@
         {
           "title": "Verbi 6 / Verbs",
           "url": "https://onlineitalianclub.com/other-verbs-b1-1/"
+        },
+        {
+          "title": "Free Italian Exercises",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/"
+        },
+        {
+          "title": "Online Italian Lessons",
+          "url": "https://nativespeakerteachers.com/"
         }
       ]
     }
   ],
   "B2": [
+    {
+      "category": "B2 – Upper-Intermediate Italian Lessons",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Remote Past",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-30-remote-past/"
+        },
+        {
+          "title": "Uses Of The Subjunctive",
+          "url": "https://onlineitalianclub.com/learn-italian-with-online-italian-lessons-31-subjunctive/"
+        },
+        {
+          "title": "Relative Pronouns",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-32-relative-pronouns/"
+        },
+        {
+          "title": "Type And Position Of Adjectives",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-33-adjectives/"
+        },
+        {
+          "title": "The Impersonal Form With ‘Si’ (part 2)",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-34-si/"
+        },
+        {
+          "title": "Linkers",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-35-connectors/"
+        }
+      ]
+    },
     {
       "category": "B2 – Upper-Intermediate Italian Listening Practice",
       "isScored": false,
@@ -2479,11 +2671,69 @@
         {
           "title": "Viaggiare / Travelling",
           "url": "https://onlineitalianclub.com/travelling-viaggiare/"
+        },
+        {
+          "title": "Free Italian Exercises",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/"
+        },
+        {
+          "title": "Online Italian Lessons",
+          "url": "https://nativespeakerteachers.com/"
         }
       ]
     }
   ],
   "C1": [
+    {
+      "category": "C1 – Advanced Italian Lessons",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Pronominal Verbs",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-36-pronominal-verbs/"
+        },
+        {
+          "title": "Uses Of The Present Participle",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-37-present-participle/"
+        },
+        {
+          "title": "Uses Of The Past Participle",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-38-past-participle/"
+        },
+        {
+          "title": "Uses Of The Infinitive",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-39-uses-of-the-infinitive/"
+        },
+        {
+          "title": "‘Piuttosto che’",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-40-piuttosto-che/"
+        },
+        {
+          "title": "‘Mica’",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-41-mica/"
+        },
+        {
+          "title": "‘Non’",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-42-non/"
+        },
+        {
+          "title": "Reported Speech",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-43-reported-speech/"
+        },
+        {
+          "title": "Indefinite pronouns and Adjectives",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-44-indefinite-pronouns/"
+        },
+        {
+          "title": "Use and Omission of Articles",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-45-articles/"
+        },
+        {
+          "title": "Adverbial phrases",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-46-adverbial-phrases/"
+        }
+      ]
+    },
     {
       "category": "C1 – Advanced Italian Listening Practice",
       "isScored": false,
@@ -2761,11 +3011,57 @@
         {
           "title": "Orecchie nei modi di dire / Ears in idioms",
           "url": "https://onlineitalianclub.com/le-parti-del-corpo-nei-modi-di-dire-le-orecchie-c1/"
+        },
+        {
+          "title": "Free Italian Exercises",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/"
+        },
+        {
+          "title": "Online Italian Lessons",
+          "url": "https://nativespeakerteachers.com/"
         }
       ]
     }
   ],
   "C2": [
+    {
+      "category": "C2 – Proficiency Italian Lessons",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Finché/affinché",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-47-finche/"
+        },
+        {
+          "title": "Conjunctions and Linkers",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-48-conjunctions/"
+        },
+        {
+          "title": "Tense Agreement",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-tense-agreement/"
+        },
+        {
+          "title": "Relative Pronouns ‘Che’ and ‘Cui’",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-50-relative-pronouns-che-and-cui/"
+        },
+        {
+          "title": "Possessive Relative Pronouns",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-51-possessive-relative-pronouns/"
+        },
+        {
+          "title": "Simple Prepositions",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-52-simple-prepositions/"
+        },
+        {
+          "title": "Articulated Prepositions",
+          "url": "https://onlineitalianclub.com/free-online-italian-lessons-53-articulated-prepositions/"
+        },
+        {
+          "title": "Pronominal Particles ‘Ci’ and ‘Ne’",
+          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-54-ci-and-ne/"
+        }
+      ]
+    },
     {
       "category": "C2 – Proficiency Italian Listening Practice",
       "isScored": false,
@@ -2989,6 +3285,14 @@
         {
           "title": "Sentimenti e il carattere / Feelings and character",
           "url": "https://onlineitalianclub.com/sentimenti-e-carattere-c2/"
+        },
+        {
+          "title": "Free Italian Exercises",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/"
+        },
+        {
+          "title": "Online Italian Lessons",
+          "url": "https://nativespeakerteachers.com/"
         }
       ]
     }
