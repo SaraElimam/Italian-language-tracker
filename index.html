@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Italian Club - All Levels Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .tile-transition { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen">
+
+  <!-- Header & Level Navigation -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 py-4">
+      <div class="flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <h1 class="text-xl font-bold text-slate-800">Online Italian Club Tracker</h1>
+          <p class="text-xs text-slate-500">Track all 6 CEFR levels with direct lesson links</p>
+        </div>
+
+        <!-- Level Selector Buttons -->
+        <div class="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-lg border border-slate-200" id="level-buttons-container">
+          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold bg-emerald-600 text-white shadow-sm" data-lvl="A1">A1</button>
+          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="A2">A2</button>
+          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="B1">B1</button>
+          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="B2">B2</button>
+          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="C1">C1</button>
+          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="C2">C2</button>
+        </div>
+      </div>
+
+      <!-- Live Puzzle Progress Metrics -->
+      <div class="mt-4 grid grid-cols-3 gap-4 border-t border-slate-100 pt-3">
+        <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-200 text-center">
+          <span class="text-xs text-slate-500 font-medium block">Current Level Progress</span>
+          <span id="stat-progress" class="text-lg font-bold text-emerald-600">0%</span>
+        </div>
+        <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-200 text-center">
+          <span class="text-xs text-slate-500 font-medium block">Tiles Remaining</span>
+          <span id="stat-remaining" class="text-lg font-bold text-amber-600">0 left</span>
+        </div>
+        <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-200 text-center">
+          <span class="text-xs text-slate-500 font-medium block">Average Mark</span>
+          <span id="stat-average" class="text-lg font-bold text-sky-600">--</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Puzzle Board Grid -->
+  <main class="max-w-6xl mx-auto px-4 py-8 space-y-8" id="curriculum-container"></main>
+
+  <!-- Score & Edit Modal -->
+  <div id="score-modal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-sm hidden items-center justify-center z-50 p-4">
+    <div class="bg-white rounded-xl shadow-xl max-w-sm w-full p-5 border border-slate-200">
+      <h3 id="modal-title" class="font-bold text-slate-800 text-base mb-1"></h3>
+      
+      <!-- Direct Exercise Link -->
+      <div class="mb-4">
+        <a id="modal-link" href="#" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center text-xs font-semibold text-sky-600 hover:text-sky-800 underline gap-1">
+          <span>Open this lesson on Online Italian Club</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
+
+      <div id="score-input-container" class="space-y-2 mb-4">
+        <label class="text-xs font-semibold text-slate-700">Exercise Mark / Score (%)</label>
+        <input type="number" id="modal-score" min="0" max="100" placeholder="e.g. 85" 
+               class="w-full border border-slate-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500">
+      </div>
+
+      <div class="flex justify-between items-center gap-2">
+        <button id="btn-delete" class="text-xs text-red-600 font-medium hover:underline">Reset to White</button>
+        <div class="flex space-x-2">
+          <button id="btn-cancel" class="px-3 py-1.5 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 rounded font-medium">Cancel</button>
+          <button id="btn-save" class="px-4 py-1.5 text-xs text-white bg-emerald-600 hover:bg-emerald-700 rounded font-semibold shadow-sm">Save Complete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Fallback dictionary for all 6 levels before curriculum.json finishes crawling
+    let curriculumAll = {
+      "A1": [
+        {
+          category: "A1 – Core Lessons",
+          isScored: false,
+          items: [
+            { title: "01: Articles", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/articles/" },
+            { title: "02: Plurals", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/plurals/" },
+            { title: "03: There is/There are", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/there-is-there-are/" },
+            { title: "04: Verbs in present tense", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/verbs-in-the-present-tense/" }
+          ]
+        },
+        {
+          category: "A1 – Scored Exercises",
+          isScored: true,
+          items: [
+            { title: "Articoli 1", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-exercises-and-quizzes/articoli-1/" },
+            { title: "Articoli 2", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-exercises-and-quizzes/articoli-2/" }
+          ]
+        }
+      ],
+      "A2": [
+        {
+          category: "A2 – Core Lessons",
+          isScored: false,
+          items: [
+            { title: "01: Imperfetto", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/imperfetto/" },
+            { title: "02: Trapassato Prossimo", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/trapassato-prossimo/" },
+            { title: "03: Futuro Semplice", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/futuro-semplice/" }
+          ]
+        },
+        {
+          category: "A2 – Scored Exercises",
+          isScored: true,
+          items: [
+            { title: "Imperfetto 1", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-exercises-and-quizzes/imperfetto-1/" },
+            { title: "Futuro 1", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-exercises-and-quizzes/futuro-1/" }
+          ]
+        }
+      ],
+      "B1": [
+        {
+          category: "B1 – Core Lessons",
+          isScored: false,
+          items: [
+            { title: "01: Condizionale Presente", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/condizionale-presente/" },
+            { title: "02: Congiuntivo Presente", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/congiuntivo-presente/" }
+          ]
+        }
+      ],
+      "B2": [
+        {
+          category: "B2 – Core Lessons",
+          isScored: false,
+          items: [
+            { title: "01: Congiuntivo Imperfetto", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/congiuntivo-imperfetto/" }
+          ]
+        }
+      ],
+      "C1": [
+        {
+          category: "C1 – Advanced Topics",
+          isScored: false,
+          items: [
+            { title: "01: Periodo Ipotetico", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/periodo-ipotetico/" }
+          ]
+        }
+      ],
+      "C2": [
+        {
+          category: "C2 – Proficiency Topics",
+          isScored: false,
+          items: [
+            { title: "01: Forme Alterate e Idiomi", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/" }
+          ]
+        }
+      ]
+    };
+
+    let currentLevel = "A1";
+    let userData = JSON.parse(localStorage.getItem('italian_club_data')) || {};
+    let activeTile = null;
+
+    // Fetch scraped multi-level curriculum.json
+    fetch('curriculum.json')
+      .then(res => res.json())
+      .then(data => {
+        curriculumAll = data;
+        render();
+      })
+      .catch(() => {
+        render();
+      });
+
+    // Level Switcher Logic
+    const levelBtns = document.querySelectorAll('.lvl-btn');
+    levelBtns.forEach(btn => {
+      btn.onclick = () => {
+        levelBtns.forEach(b => {
+          b.className = "lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white";
+        });
+        btn.className = "lvl-btn px-3 py-1.5 rounded text-sm font-semibold bg-emerald-600 text-white shadow-sm";
+        currentLevel = btn.dataset.lvl;
+        render();
+      };
+    });
+
+    function saveState() {
+      localStorage.setItem('italian_club_data', JSON.stringify(userData));
+      render();
+    }
+
+    function render() {
+      const container = document.getElementById('curriculum-container');
+      container.innerHTML = '';
+
+      const levelSections = curriculumAll[currentLevel] || [];
+      
+      let totalTiles = 0, completedTiles = 0, totalScores = 0, scoredCount = 0;
+
+      if (levelSections.length === 0) {
+        container.innerHTML = `<div class="p-8 text-center text-slate-400">No scraped lessons found for ${currentLevel}. Run scrape_all.py to populate.</div>`;
+        return;
+      }
+
+      levelSections.forEach((section, sIdx) => {
+        const sectionEl = document.createElement('div');
+        sectionEl.className = 'bg-white rounded-xl p-5 border border-slate-200 shadow-sm';
+
+        const title = document.createElement('h2');
+        title.className = 'text-sm font-bold text-slate-700 tracking-wide uppercase mb-4 flex items-center justify-between';
+        
+        const countSpan = document.createElement('span');
+        countSpan.className = 'text-xs text-slate-400 font-normal lowercase';
+        let sectionDone = 0;
+
+        const grid = document.createElement('div');
+        grid.className = 'grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2.5';
+
+        section.items.forEach((item, iIdx) => {
+          totalTiles++;
+          // Unique key by level, section, and item
+          const tileId = `${currentLevel}-${sIdx}-${iIdx}`;
+          const isDone = userData[tileId]?.completed;
+          const score = userData[tileId]?.score;
+
+          if (isDone) {
+            completedTiles++;
+            sectionDone++;
+            if (score !== null && score !== undefined && score !== '') {
+              totalScores += Number(score);
+              scoredCount++;
+            }
+          }
+
+          const tile = document.createElement('div');
+          tile.className = `tile-transition p-3 rounded-lg border flex flex-col justify-between h-28 relative cursor-pointer ${
+            isDone 
+              ? 'bg-emerald-600 border-emerald-700 text-white shadow-sm' 
+              : 'bg-white border-slate-200 text-slate-800 hover:border-slate-300 hover:bg-slate-50'
+          }`;
+
+          tile.innerHTML = `
+            <div class="flex items-start justify-between w-full">
+              <span class="text-xs font-semibold leading-tight line-clamp-2">${item.title}</span>
+              ${isDone ? '<span class="text-emerald-100 text-xs font-bold">✓</span>' : ''}
+            </div>
+            
+            <div class="flex items-center justify-between w-full pt-2">
+              <a href="${item.url}" target="_blank" rel="noopener noreferrer" 
+                 class="text-[11px] font-semibold underline decoration-dotted hover:opacity-80 flex items-center gap-0.5 ${isDone ? 'text-emerald-100' : 'text-sky-600'}"
+                 onclick="event.stopPropagation()">
+                Open ↗
+              </a>
+              ${score !== null && score !== undefined && score !== '' ? `<span class="bg-emerald-700/60 px-1.5 py-0.5 rounded text-[10px] text-white font-medium">${score}%</span>` : ''}
+            </div>
+          `;
+
+          tile.onclick = () => openModal(tileId, item.title, item.url, section.isScored);
+          grid.appendChild(tile);
+        });
+
+        title.innerText = section.category;
+        countSpan.innerText = `${sectionDone} / ${section.items.length} done`;
+        title.appendChild(countSpan);
+
+        sectionEl.appendChild(title);
+        sectionEl.appendChild(grid);
+        container.appendChild(sectionEl);
+      });
+
+      // Update Top Metrics
+      const percent = totalTiles > 0 ? Math.round((completedTiles / totalTiles) * 100) : 0;
+      document.getElementById('stat-progress').innerText = `${percent}%`;
+      document.getElementById('stat-remaining').innerText = `${totalTiles - completedTiles} left`;
+      document.getElementById('stat-average').innerText = scoredCount > 0 ? `${Math.round(totalScores / scoredCount)}%` : '--';
+    }
+
+    const modal = document.getElementById('score-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalLink = document.getElementById('modal-link');
+    const modalScore = document.getElementById('modal-score');
+    const scoreContainer = document.getElementById('score-input-container');
+
+    function openModal(id, title, url, isScored) {
+      activeTile = { id, title, isScored };
+      modalTitle.innerText = title;
+      modalLink.href = url;
+      
+      const record = userData[id] || {};
+      modalScore.value = record.score ?? '';
+      scoreContainer.style.display = isScored ? 'block' : 'none';
+      
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    document.getElementById('btn-cancel').onclick = () => {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    };
+
+    document.getElementById('btn-delete').onclick = () => {
+      if (activeTile) {
+        delete userData[activeTile.id];
+        saveState();
+      }
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    };
+
+    document.getElementById('btn-save').onclick = () => {
+      if (activeTile) {
+        userData[activeTile.id] = {
+          completed: true,
+          score: activeTile.isScored && modalScore.value !== '' ? Number(modalScore.value) : null
+        };
+        saveState();
+      }
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    };
+  </script>
+</body>
+</html>
