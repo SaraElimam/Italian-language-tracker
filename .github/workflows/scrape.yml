@@ -1,0 +1,30 @@
+name: Run Italian Scraper
+
+on:
+  workflow_dispatch: # Gives you a manual "Run" button
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run script
+        run: python scrape_all.py
+
+      - name: Commit and push generated JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add curriculum.json
+          git commit -m "Auto-generate curriculum.json via GitHub Action" || echo "No changes to commit"
+          git push
