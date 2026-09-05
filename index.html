@@ -11,20 +11,20 @@
   <style>
     body {
       font-family: 'Pixelify Sans', monospace;
-      background-color: #fcf6ed;
-      background-image: radial-gradient(#e5d8c5 1.5px, transparent 1.5px);
+      background-color: #f0f7fa; /* Light icy blue background */
+      background-image: radial-gradient(#d5e8f0 1.5px, transparent 1.5px);
       background-size: 16px 16px;
-      color: #3c3234;
+      color: #303952; /* Deep blue-grey for text and borders */
     }
 
     .retro-box {
-      border: 3px solid #3c3234;
-      box-shadow: 4px 4px 0px #3c3234;
+      border: 3px solid #303952;
+      box-shadow: 4px 4px 0px #303952;
     }
 
     .retro-box-sm {
-      border: 2px solid #3c3234;
-      box-shadow: 2px 2px 0px #3c3234;
+      border: 2px solid #303952;
+      box-shadow: 2px 2px 0px #303952;
     }
 
     .retro-btn {
@@ -33,43 +33,43 @@
     
     .retro-btn:active {
       transform: translate(2px, 2px);
-      box-shadow: 0px 0px 0px #3c3234 !important;
+      box-shadow: 0px 0px 0px #303952 !important;
     }
 
     .folder-tab {
-      border-top: 3px solid #3c3234;
-      border-left: 3px solid #3c3234;
-      border-right: 3px solid #3c3234;
+      border-top: 3px solid #303952;
+      border-left: 3px solid #303952;
+      border-right: 3px solid #303952;
       border-bottom: none;
     }
   </style>
 </head>
 <body class="p-4 md:p-8">
 
-  <header class="max-w-5xl mx-auto bg-[#fce8d5] retro-box rounded-xl p-5 mb-8">
-    <div class="flex flex-wrap items-center justify-between gap-4 border-b-2 border-[#3c3234] pb-4">
+  <header class="max-w-5xl mx-auto bg-[#e3f0f6] retro-box rounded-xl p-5 mb-8">
+    <div class="flex flex-wrap items-center justify-between gap-4 border-b-2 border-[#303952] pb-4">
       <div>
-        <span class="text-xs tracking-wider uppercase bg-[#fff] px-2 py-0.5 rounded border border-[#3c3234]">Daily Study Manifest</span>
+        <span class="text-xs tracking-wider uppercase bg-[#fff] px-2 py-0.5 rounded border border-[#303952]">Daily Study Manifest</span>
         <h1 class="text-2xl font-bold tracking-wide mt-1">ITALIAN LANGUAGE LOG</h1>
       </div>
       
-      <div class="flex flex-wrap gap-1.5 bg-[#f5d9c2] p-1.5 rounded-lg border-2 border-[#3c3234]" id="level-buttons-container">
+      <div class="flex flex-wrap gap-1.5 bg-[#cce3f5] p-1.5 rounded-lg border-2 border-[#303952]" id="level-buttons-container">
         <!-- Buttons injected by JS -->
       </div>
     </div>
 
     <div class="grid grid-cols-3 gap-3 mt-4 text-xs font-semibold">
       <div class="bg-[#fff] retro-box-sm rounded-lg p-2.5 text-center">
-        <span class="block text-[10px] text-stone-500">COMPLETED</span>
-        <span id="stat-progress" class="text-base text-emerald-700">0%</span>
+        <span class="block text-[10px] text-slate-400">COMPLETED</span>
+        <span id="stat-progress" class="text-base text-pink-500">0%</span>
       </div>
       <div class="bg-[#fff] retro-box-sm rounded-lg p-2.5 text-center">
-        <span class="block text-[10px] text-stone-500">TILES LEFT</span>
-        <span id="stat-remaining" class="text-base text-amber-700">0 REMAIN</span>
+        <span class="block text-[10px] text-slate-400">TILES LEFT</span>
+        <span id="stat-remaining" class="text-base text-sky-600">0 REMAIN</span>
       </div>
       <div class="bg-[#fff] retro-box-sm rounded-lg p-2.5 text-center">
-        <span class="block text-[10px] text-stone-500">AVG SCORE</span>
-        <span id="stat-average" class="text-base text-sky-700">--</span>
+        <span class="block text-[10px] text-slate-400">AVG SCORE</span>
+        <span id="stat-average" class="text-base text-indigo-500">--</span>
       </div>
     </div>
   </header>
@@ -77,27 +77,27 @@
   <main class="max-w-5xl mx-auto space-y-8" id="curriculum-container"></main>
 
   <!-- Retro Modal -->
-  <div id="score-modal" class="fixed inset-0 bg-[#3c3234]/40 backdrop-blur-sm hidden items-center justify-center z-50 p-4">
-    <div class="bg-[#f0f9ee] retro-box rounded-xl max-w-sm w-full p-5">
-      <div class="flex items-center gap-3 border-b-2 border-[#3c3234] pb-3 mb-4">
+  <div id="score-modal" class="fixed inset-0 bg-[#303952]/40 backdrop-blur-sm hidden items-center justify-center z-50 p-4">
+    <div class="bg-[#f5fbff] retro-box rounded-xl max-w-sm w-full p-5">
+      <div class="flex items-center gap-3 border-b-2 border-[#303952] pb-3 mb-4">
         <span id="modal-icon" class="text-3xl bg-[#fff] p-2 rounded retro-box-sm">📝</span>
         <div>
           <h3 id="modal-title" class="font-bold text-sm leading-tight">Update Tile</h3>
-          <a id="modal-link" href="#" target="_blank" class="text-[10px] text-sky-700 underline font-semibold">Open Study Material ↗</a>
+          <a id="modal-link" href="#" target="_blank" class="text-[10px] text-pink-600 underline font-semibold">Open Study Material ↗</a>
         </div>
       </div>
 
       <div id="score-input-container" class="space-y-2 mb-5">
-        <label class="text-xs font-bold">EXERCISE MARK (%)</label>
+        <label class="text-xs font-bold text-[#303952]">EXERCISE MARK (%)</label>
         <input type="number" id="modal-score" min="0" max="100" placeholder="e.g. 85" 
-               class="w-full retro-box-sm rounded px-3 py-2 text-sm focus:outline-none bg-white">
+               class="w-full retro-box-sm rounded px-3 py-2 text-sm focus:outline-none bg-white text-[#303952]">
       </div>
 
       <div class="flex justify-between items-center gap-2">
-        <button id="btn-delete" class="text-xs text-red-600 font-bold hover:underline">Reset</button>
+        <button id="btn-delete" class="text-xs text-slate-500 font-bold hover:underline">Reset to Incomplete</button>
         <div class="flex space-x-2">
-          <button id="btn-cancel" class="retro-btn retro-box-sm px-3 py-1.5 text-xs bg-white rounded font-bold">Cancel</button>
-          <button id="btn-save" class="retro-btn retro-box-sm px-4 py-1.5 text-xs text-white bg-[#5e945c] rounded font-bold">Save</button>
+          <button id="btn-cancel" class="retro-btn retro-box-sm px-3 py-1.5 text-xs bg-white text-[#303952] rounded font-bold">Cancel</button>
+          <button id="btn-save" class="retro-btn retro-box-sm px-4 py-1.5 text-xs text-[#303952] bg-[#ff99b6] rounded font-bold">Mark Complete</button>
         </div>
       </div>
     </div>
@@ -151,7 +151,7 @@
       levels.forEach(lvl => {
         const btn = document.createElement('button');
         const isActive = lvl === currentLevel;
-        btn.className = `retro-btn px-3 py-1 font-bold text-xs rounded border-2 border-[#3c3234] shadow-[2px_2px_0px_#3c3234] ${isActive ? 'bg-[#bfe3c0]' : 'bg-white hover:bg-[#fff9f0]'}`;
+        btn.className = `retro-btn px-3 py-1 font-bold text-xs rounded border-2 border-[#303952] shadow-[2px_2px_0px_#303952] text-[#303952] ${isActive ? 'bg-[#ffd6e0]' : 'bg-white hover:bg-[#f0f7fa]'}`;
         btn.innerText = lvl;
         btn.onclick = () => {
           currentLevel = lvl;
@@ -185,20 +185,20 @@
 
         // Folder Tab
         const tab = document.createElement('div');
-        tab.className = 'absolute top-0 left-4 bg-[#d8ecd5] folder-tab px-4 py-1 rounded-t-lg font-bold text-xs bg-[#e6dff2]';
+        tab.className = 'absolute top-0 left-4 folder-tab px-4 py-1 rounded-t-lg font-bold text-xs bg-[#ffd6e0] text-[#303952]';
         tab.innerText = section.category;
         wrapper.appendChild(tab);
 
         // Folder Body
         const body = document.createElement('div');
-        body.className = 'bg-[#f8f5fd] retro-box rounded-xl rounded-tl-none p-5';
+        body.className = 'bg-[#f5fbff] retro-box rounded-xl rounded-tl-none p-5';
         
         const grid = document.createElement('div');
         grid.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3';
 
         section.items.forEach((item, iIdx) => {
           totalTiles++;
-          const tileId = `${currentLevel}-${sIdx}-${iIdx}`;
+          const tileId = `${currentLevel.toLowerCase()}-${sIdx}-${iIdx}`;
           const isDone = userData[tileId]?.completed;
           const score = userData[tileId]?.score;
           const icon = getTopicIcon(item.title, section.category);
@@ -214,24 +214,26 @@
           const tile = document.createElement('div');
           
           if (isDone) {
-            tile.className = 'bg-[#c2e7be] retro-box-sm rounded-lg p-3 flex items-start gap-3 cursor-pointer retro-btn shadow-[2px_2px_0px_#3c3234] hover:bg-[#b5e0b0]';
+            // Completed Tile: Baby blue background
+            tile.className = 'bg-[#cce3f5] retro-box-sm rounded-lg p-3 flex items-start gap-3 cursor-pointer retro-btn shadow-[2px_2px_0px_#303952] hover:bg-[#b8d8f2]';
             tile.innerHTML = `
-              <div class="text-2xl bg-[#a7d9a1] p-2 rounded border-2 border-[#3c3234] shrink-0">${icon}</div>
+              <div class="text-2xl bg-[#b0d4f1] p-2 rounded border-2 border-[#303952] shrink-0">${icon}</div>
               <div class="flex-1 min-w-0">
                 <div class="flex items-center justify-between">
-                  <h3 class="font-bold text-sm leading-tight truncate">${item.title}</h3>
-                  <span class="text-xs font-bold text-emerald-800">✓</span>
+                  <h3 class="font-bold text-sm leading-tight truncate text-[#303952]">${item.title}</h3>
+                  <span class="text-xs font-bold text-pink-500">✓</span>
                 </div>
-                ${score !== null && score !== undefined && score !== '' ? `<span class="inline-block bg-[#3c3234] text-[#fff] text-[10px] px-1.5 py-0.5 rounded font-bold mt-1">${score}% Mark</span>` : `<span class="inline-block text-[#3c3234] text-[10px] font-bold mt-1">Completed</span>`}
+                ${score !== null && score !== undefined && score !== '' ? `<span class="inline-block bg-[#303952] text-[#fff] text-[10px] px-1.5 py-0.5 rounded font-bold mt-1">${score}% Mark</span>` : `<span class="inline-block text-[#303952] text-[10px] font-bold mt-1">Completed</span>`}
               </div>
             `;
           } else {
-            tile.className = 'bg-[#fffdfa] retro-box-sm rounded-lg p-3 flex items-start gap-3 cursor-pointer retro-btn shadow-[2px_2px_0px_#3c3234] hover:bg-[#fff9f0]';
+            // Incomplete Tile: White background
+            tile.className = 'bg-[#ffffff] retro-box-sm rounded-lg p-3 flex items-start gap-3 cursor-pointer retro-btn shadow-[2px_2px_0px_#303952] hover:bg-[#f0f7fa]';
             tile.innerHTML = `
-              <div class="text-2xl bg-[#faecd8] p-2 rounded border-2 border-[#3c3234] shrink-0">${icon}</div>
+              <div class="text-2xl bg-[#eef6fc] p-2 rounded border-2 border-[#303952] shrink-0">${icon}</div>
               <div class="flex-1 min-w-0">
-                <h3 class="font-bold text-sm leading-tight truncate">${item.title}</h3>
-                <p class="text-[10px] text-stone-500 mt-0.5 uppercase tracking-wide">${section.isScored ? 'Exercise' : 'Lesson'}</p>
+                <h3 class="font-bold text-sm leading-tight truncate text-[#303952]">${item.title}</h3>
+                <p class="text-[10px] text-slate-500 mt-0.5 uppercase tracking-wide">${section.isScored ? 'Exercise' : 'Lesson'}</p>
               </div>
             `;
           }
@@ -257,6 +259,7 @@
     const modalScore = document.getElementById('modal-score');
     const modalIcon = document.getElementById('modal-icon');
     const scoreContainer = document.getElementById('score-input-container');
+    const btnSave = document.getElementById('btn-save');
 
     function openModal(id, title, url, isScored, icon) {
       activeTile = { id, title, isScored };
@@ -267,6 +270,8 @@
       const record = userData[id] || {};
       modalScore.value = record.score ?? '';
       scoreContainer.style.display = isScored ? 'block' : 'none';
+      
+      btnSave.innerText = isScored ? "Save Score" : "Mark Complete";
       
       modal.classList.remove('hidden');
       modal.classList.add('flex');
@@ -286,7 +291,7 @@
       modal.classList.remove('flex');
     };
 
-    document.getElementById('btn-save').onclick = () => {
+    btnSave.onclick = () => {
       if (activeTile) {
         userData[activeTile.id] = {
           completed: true,
