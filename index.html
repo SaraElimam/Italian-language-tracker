@@ -3,193 +3,164 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Italian Club - All Levels Tracker</title>
+  <title>Italian Study Log</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    .tile-transition { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); }
+    body {
+      font-family: 'Pixelify Sans', monospace;
+      background-color: #fcf6ed;
+      background-image: radial-gradient(#e5d8c5 1.5px, transparent 1.5px);
+      background-size: 16px 16px;
+      color: #3c3234;
+    }
+
+    .retro-box {
+      border: 3px solid #3c3234;
+      box-shadow: 4px 4px 0px #3c3234;
+    }
+
+    .retro-box-sm {
+      border: 2px solid #3c3234;
+      box-shadow: 2px 2px 0px #3c3234;
+    }
+
+    .retro-btn {
+      transition: all 0.1s;
+    }
+    
+    .retro-btn:active {
+      transform: translate(2px, 2px);
+      box-shadow: 0px 0px 0px #3c3234 !important;
+    }
+
+    .folder-tab {
+      border-top: 3px solid #3c3234;
+      border-left: 3px solid #3c3234;
+      border-right: 3px solid #3c3234;
+      border-bottom: none;
+    }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-900 min-h-screen">
+<body class="p-4 md:p-8">
 
-  <!-- Header & Level Navigation -->
-  <header class="bg-white border-b border-slate-200 sticky top-0 z-30 shadow-sm">
-    <div class="max-w-6xl mx-auto px-4 py-4">
-      <div class="flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <h1 class="text-xl font-bold text-slate-800">Online Italian Club Tracker</h1>
-          <p class="text-xs text-slate-500">Track all 6 CEFR levels with direct lesson links</p>
-        </div>
-
-        <!-- Level Selector Buttons -->
-        <div class="flex flex-wrap gap-1 bg-slate-100 p-1 rounded-lg border border-slate-200" id="level-buttons-container">
-          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold bg-emerald-600 text-white shadow-sm" data-lvl="A1">A1</button>
-          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="A2">A2</button>
-          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="B1">B1</button>
-          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="B2">B2</button>
-          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="C1">C1</button>
-          <button class="lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white" data-lvl="C2">C2</button>
-        </div>
+  <header class="max-w-5xl mx-auto bg-[#fce8d5] retro-box rounded-xl p-5 mb-8">
+    <div class="flex flex-wrap items-center justify-between gap-4 border-b-2 border-[#3c3234] pb-4">
+      <div>
+        <span class="text-xs tracking-wider uppercase bg-[#fff] px-2 py-0.5 rounded border border-[#3c3234]">Daily Study Manifest</span>
+        <h1 class="text-2xl font-bold tracking-wide mt-1">ITALIAN LANGUAGE LOG</h1>
       </div>
+      
+      <div class="flex flex-wrap gap-1.5 bg-[#f5d9c2] p-1.5 rounded-lg border-2 border-[#3c3234]" id="level-buttons-container">
+        <!-- Buttons injected by JS -->
+      </div>
+    </div>
 
-      <!-- Live Puzzle Progress Metrics -->
-      <div class="mt-4 grid grid-cols-3 gap-4 border-t border-slate-100 pt-3">
-        <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-200 text-center">
-          <span class="text-xs text-slate-500 font-medium block">Current Level Progress</span>
-          <span id="stat-progress" class="text-lg font-bold text-emerald-600">0%</span>
-        </div>
-        <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-200 text-center">
-          <span class="text-xs text-slate-500 font-medium block">Tiles Remaining</span>
-          <span id="stat-remaining" class="text-lg font-bold text-amber-600">0 left</span>
-        </div>
-        <div class="bg-slate-50 p-2.5 rounded-lg border border-slate-200 text-center">
-          <span class="text-xs text-slate-500 font-medium block">Average Mark</span>
-          <span id="stat-average" class="text-lg font-bold text-sky-600">--</span>
-        </div>
+    <div class="grid grid-cols-3 gap-3 mt-4 text-xs font-semibold">
+      <div class="bg-[#fff] retro-box-sm rounded-lg p-2.5 text-center">
+        <span class="block text-[10px] text-stone-500">COMPLETED</span>
+        <span id="stat-progress" class="text-base text-emerald-700">0%</span>
+      </div>
+      <div class="bg-[#fff] retro-box-sm rounded-lg p-2.5 text-center">
+        <span class="block text-[10px] text-stone-500">TILES LEFT</span>
+        <span id="stat-remaining" class="text-base text-amber-700">0 REMAIN</span>
+      </div>
+      <div class="bg-[#fff] retro-box-sm rounded-lg p-2.5 text-center">
+        <span class="block text-[10px] text-stone-500">AVG SCORE</span>
+        <span id="stat-average" class="text-base text-sky-700">--</span>
       </div>
     </div>
   </header>
 
-  <!-- Puzzle Board Grid -->
-  <main class="max-w-6xl mx-auto px-4 py-8 space-y-8" id="curriculum-container"></main>
+  <main class="max-w-5xl mx-auto space-y-8" id="curriculum-container"></main>
 
-  <!-- Score & Edit Modal -->
-  <div id="score-modal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-sm hidden items-center justify-center z-50 p-4">
-    <div class="bg-white rounded-xl shadow-xl max-w-sm w-full p-5 border border-slate-200">
-      <h3 id="modal-title" class="font-bold text-slate-800 text-base mb-1"></h3>
-      
-      <!-- Direct Exercise Link -->
-      <div class="mb-4">
-        <a id="modal-link" href="#" target="_blank" rel="noopener noreferrer" 
-           class="inline-flex items-center text-xs font-semibold text-sky-600 hover:text-sky-800 underline gap-1">
-          <span>Open this lesson on Online Italian Club</span>
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-        </a>
+  <!-- Retro Modal -->
+  <div id="score-modal" class="fixed inset-0 bg-[#3c3234]/40 backdrop-blur-sm hidden items-center justify-center z-50 p-4">
+    <div class="bg-[#f0f9ee] retro-box rounded-xl max-w-sm w-full p-5">
+      <div class="flex items-center gap-3 border-b-2 border-[#3c3234] pb-3 mb-4">
+        <span id="modal-icon" class="text-3xl bg-[#fff] p-2 rounded retro-box-sm">📝</span>
+        <div>
+          <h3 id="modal-title" class="font-bold text-sm leading-tight">Update Tile</h3>
+          <a id="modal-link" href="#" target="_blank" class="text-[10px] text-sky-700 underline font-semibold">Open Study Material ↗</a>
+        </div>
       </div>
 
-      <div id="score-input-container" class="space-y-2 mb-4">
-        <label class="text-xs font-semibold text-slate-700">Exercise Mark / Score (%)</label>
+      <div id="score-input-container" class="space-y-2 mb-5">
+        <label class="text-xs font-bold">EXERCISE MARK (%)</label>
         <input type="number" id="modal-score" min="0" max="100" placeholder="e.g. 85" 
-               class="w-full border border-slate-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500">
+               class="w-full retro-box-sm rounded px-3 py-2 text-sm focus:outline-none bg-white">
       </div>
 
       <div class="flex justify-between items-center gap-2">
-        <button id="btn-delete" class="text-xs text-red-600 font-medium hover:underline">Reset to White</button>
+        <button id="btn-delete" class="text-xs text-red-600 font-bold hover:underline">Reset</button>
         <div class="flex space-x-2">
-          <button id="btn-cancel" class="px-3 py-1.5 text-xs text-slate-600 bg-slate-100 hover:bg-slate-200 rounded font-medium">Cancel</button>
-          <button id="btn-save" class="px-4 py-1.5 text-xs text-white bg-emerald-600 hover:bg-emerald-700 rounded font-semibold shadow-sm">Save Complete</button>
+          <button id="btn-cancel" class="retro-btn retro-box-sm px-3 py-1.5 text-xs bg-white rounded font-bold">Cancel</button>
+          <button id="btn-save" class="retro-btn retro-box-sm px-4 py-1.5 text-xs text-white bg-[#5e945c] rounded font-bold">Save</button>
         </div>
       </div>
     </div>
   </div>
 
   <script>
-    // Fallback dictionary for all 6 levels before curriculum.json finishes crawling
-    let curriculumAll = {
-      "A1": [
-        {
-          category: "A1 – Core Lessons",
-          isScored: false,
-          items: [
-            { title: "01: Articles", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/articles/" },
-            { title: "02: Plurals", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/plurals/" },
-            { title: "03: There is/There are", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/there-is-there-are/" },
-            { title: "04: Verbs in present tense", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/verbs-in-the-present-tense/" }
-          ]
-        },
-        {
-          category: "A1 – Scored Exercises",
-          isScored: true,
-          items: [
-            { title: "Articoli 1", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-exercises-and-quizzes/articoli-1/" },
-            { title: "Articoli 2", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-exercises-and-quizzes/articoli-2/" }
-          ]
-        }
-      ],
-      "A2": [
-        {
-          category: "A2 – Core Lessons",
-          isScored: false,
-          items: [
-            { title: "01: Imperfetto", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/imperfetto/" },
-            { title: "02: Trapassato Prossimo", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/trapassato-prossimo/" },
-            { title: "03: Futuro Semplice", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/futuro-semplice/" }
-          ]
-        },
-        {
-          category: "A2 – Scored Exercises",
-          isScored: true,
-          items: [
-            { title: "Imperfetto 1", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-exercises-and-quizzes/imperfetto-1/" },
-            { title: "Futuro 1", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-exercises-and-quizzes/futuro-1/" }
-          ]
-        }
-      ],
-      "B1": [
-        {
-          category: "B1 – Core Lessons",
-          isScored: false,
-          items: [
-            { title: "01: Condizionale Presente", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/condizionale-presente/" },
-            { title: "02: Congiuntivo Presente", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/congiuntivo-presente/" }
-          ]
-        }
-      ],
-      "B2": [
-        {
-          category: "B2 – Core Lessons",
-          isScored: false,
-          items: [
-            { title: "01: Congiuntivo Imperfetto", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/congiuntivo-imperfetto/" }
-          ]
-        }
-      ],
-      "C1": [
-        {
-          category: "C1 – Advanced Topics",
-          isScored: false,
-          items: [
-            { title: "01: Periodo Ipotetico", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/periodo-ipotetico/" }
-          ]
-        }
-      ],
-      "C2": [
-        {
-          category: "C2 – Proficiency Topics",
-          isScored: false,
-          items: [
-            { title: "01: Forme Alterate e Idiomi", url: "https://onlineitalianclub.com/free-italian-exercises-and-resources/italian-grammar/" }
-          ]
-        }
-      ]
+    const iconMap = {
+      "cibo": "🥖", "food": "🥖", "cucinare": "🍳", "sapori": "🍷",
+      "orologio": "⏰", "clock": "⏰", "tempo": "⏳", "giorni": "📅",
+      "casa": "🏡", "house": "🏡", "appartamento": "🏢", "albergo": "🏨", "quartiere": "🗺️",
+      "articoli": "🏷️", "articles": "🏷️", "plurali": "👥", "verbi": "⚡",
+      "passato": "📜", "futuro": "🔮", "preposizioni": "🧭", "aggettivi": "✨",
+      "shopping": "🛍️", "negozi": "🛍️", "mare": "🌊", "hobby": "🎨", "lavoro": "💼", "famiglia": "👨‍👩‍👧",
+      "ascolto": "🎧", "listening": "🎧", "dialogo": "💬", "pronuncia": "🗣️", "grammatica": "📚"
     };
 
+    function getTopicIcon(title, category) {
+      const lowerTitle = title.toLowerCase();
+      const lowerCat = category.toLowerCase();
+      
+      if (lowerCat.includes("listening")) return "🎧";
+      if (lowerCat.includes("exercise") || lowerCat.includes("quiz")) return "📝";
+      
+      for (const [key, icon] of Object.entries(iconMap)) {
+        if (lowerTitle.includes(key)) return icon;
+      }
+      return "📜"; 
+    }
+
+    let curriculumAll = {};
     let currentLevel = "A1";
     let userData = JSON.parse(localStorage.getItem('italian_club_data')) || {};
     let activeTile = null;
 
-    // Fetch scraped multi-level curriculum.json
     fetch('curriculum.json')
       .then(res => res.json())
       .then(data => {
         curriculumAll = data;
+        renderLevels();
         render();
       })
-      .catch(() => {
-        render();
+      .catch(err => {
+        document.getElementById('curriculum-container').innerHTML = '<div class="p-8 text-center font-bold">Error loading curriculum.json. Did you run the scraper?</div>';
       });
 
-    // Level Switcher Logic
-    const levelBtns = document.querySelectorAll('.lvl-btn');
-    levelBtns.forEach(btn => {
-      btn.onclick = () => {
-        levelBtns.forEach(b => {
-          b.className = "lvl-btn px-3 py-1.5 rounded text-sm font-semibold text-slate-600 hover:bg-white";
-        });
-        btn.className = "lvl-btn px-3 py-1.5 rounded text-sm font-semibold bg-emerald-600 text-white shadow-sm";
-        currentLevel = btn.dataset.lvl;
-        render();
-      };
-    });
+    function renderLevels() {
+      const container = document.getElementById('level-buttons-container');
+      container.innerHTML = '';
+      const levels = ["A1", "A2", "B1", "B2", "C1", "C2"];
+      
+      levels.forEach(lvl => {
+        const btn = document.createElement('button');
+        const isActive = lvl === currentLevel;
+        btn.className = `retro-btn px-3 py-1 font-bold text-xs rounded border-2 border-[#3c3234] shadow-[2px_2px_0px_#3c3234] ${isActive ? 'bg-[#bfe3c0]' : 'bg-white hover:bg-[#fff9f0]'}`;
+        btn.innerText = lvl;
+        btn.onclick = () => {
+          currentLevel = lvl;
+          renderLevels();
+          render();
+        };
+        container.appendChild(btn);
+      });
+    }
 
     function saveState() {
       localStorage.setItem('italian_club_data', JSON.stringify(userData));
@@ -201,38 +172,39 @@
       container.innerHTML = '';
 
       const levelSections = curriculumAll[currentLevel] || [];
-      
       let totalTiles = 0, completedTiles = 0, totalScores = 0, scoredCount = 0;
 
       if (levelSections.length === 0) {
-        container.innerHTML = `<div class="p-8 text-center text-slate-400">No scraped lessons found for ${currentLevel}. Run scrape_all.py to populate.</div>`;
+        container.innerHTML = `<div class="p-8 text-center font-bold">No lessons found for ${currentLevel}.</div>`;
         return;
       }
 
       levelSections.forEach((section, sIdx) => {
-        const sectionEl = document.createElement('div');
-        sectionEl.className = 'bg-white rounded-xl p-5 border border-slate-200 shadow-sm';
+        const wrapper = document.createElement('div');
+        wrapper.className = 'relative pt-6';
 
-        const title = document.createElement('h2');
-        title.className = 'text-sm font-bold text-slate-700 tracking-wide uppercase mb-4 flex items-center justify-between';
+        // Folder Tab
+        const tab = document.createElement('div');
+        tab.className = 'absolute top-0 left-4 bg-[#d8ecd5] folder-tab px-4 py-1 rounded-t-lg font-bold text-xs bg-[#e6dff2]';
+        tab.innerText = section.category;
+        wrapper.appendChild(tab);
+
+        // Folder Body
+        const body = document.createElement('div');
+        body.className = 'bg-[#f8f5fd] retro-box rounded-xl rounded-tl-none p-5';
         
-        const countSpan = document.createElement('span');
-        countSpan.className = 'text-xs text-slate-400 font-normal lowercase';
-        let sectionDone = 0;
-
         const grid = document.createElement('div');
-        grid.className = 'grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2.5';
+        grid.className = 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3';
 
         section.items.forEach((item, iIdx) => {
           totalTiles++;
-          // Unique key by level, section, and item
           const tileId = `${currentLevel}-${sIdx}-${iIdx}`;
           const isDone = userData[tileId]?.completed;
           const score = userData[tileId]?.score;
+          const icon = getTopicIcon(item.title, section.category);
 
           if (isDone) {
             completedTiles++;
-            sectionDone++;
             if (score !== null && score !== undefined && score !== '') {
               totalScores += Number(score);
               scoredCount++;
@@ -240,45 +212,42 @@
           }
 
           const tile = document.createElement('div');
-          tile.className = `tile-transition p-3 rounded-lg border flex flex-col justify-between h-28 relative cursor-pointer ${
-            isDone 
-              ? 'bg-emerald-600 border-emerald-700 text-white shadow-sm' 
-              : 'bg-white border-slate-200 text-slate-800 hover:border-slate-300 hover:bg-slate-50'
-          }`;
+          
+          if (isDone) {
+            tile.className = 'bg-[#c2e7be] retro-box-sm rounded-lg p-3 flex items-start gap-3 cursor-pointer retro-btn shadow-[2px_2px_0px_#3c3234] hover:bg-[#b5e0b0]';
+            tile.innerHTML = `
+              <div class="text-2xl bg-[#a7d9a1] p-2 rounded border-2 border-[#3c3234] shrink-0">${icon}</div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center justify-between">
+                  <h3 class="font-bold text-sm leading-tight truncate">${item.title}</h3>
+                  <span class="text-xs font-bold text-emerald-800">✓</span>
+                </div>
+                ${score !== null && score !== undefined && score !== '' ? `<span class="inline-block bg-[#3c3234] text-[#fff] text-[10px] px-1.5 py-0.5 rounded font-bold mt-1">${score}% Mark</span>` : `<span class="inline-block text-[#3c3234] text-[10px] font-bold mt-1">Completed</span>`}
+              </div>
+            `;
+          } else {
+            tile.className = 'bg-[#fffdfa] retro-box-sm rounded-lg p-3 flex items-start gap-3 cursor-pointer retro-btn shadow-[2px_2px_0px_#3c3234] hover:bg-[#fff9f0]';
+            tile.innerHTML = `
+              <div class="text-2xl bg-[#faecd8] p-2 rounded border-2 border-[#3c3234] shrink-0">${icon}</div>
+              <div class="flex-1 min-w-0">
+                <h3 class="font-bold text-sm leading-tight truncate">${item.title}</h3>
+                <p class="text-[10px] text-stone-500 mt-0.5 uppercase tracking-wide">${section.isScored ? 'Exercise' : 'Lesson'}</p>
+              </div>
+            `;
+          }
 
-          tile.innerHTML = `
-            <div class="flex items-start justify-between w-full">
-              <span class="text-xs font-semibold leading-tight line-clamp-2">${item.title}</span>
-              ${isDone ? '<span class="text-emerald-100 text-xs font-bold">✓</span>' : ''}
-            </div>
-            
-            <div class="flex items-center justify-between w-full pt-2">
-              <a href="${item.url}" target="_blank" rel="noopener noreferrer" 
-                 class="text-[11px] font-semibold underline decoration-dotted hover:opacity-80 flex items-center gap-0.5 ${isDone ? 'text-emerald-100' : 'text-sky-600'}"
-                 onclick="event.stopPropagation()">
-                Open ↗
-              </a>
-              ${score !== null && score !== undefined && score !== '' ? `<span class="bg-emerald-700/60 px-1.5 py-0.5 rounded text-[10px] text-white font-medium">${score}%</span>` : ''}
-            </div>
-          `;
-
-          tile.onclick = () => openModal(tileId, item.title, item.url, section.isScored);
+          tile.onclick = () => openModal(tileId, item.title, item.url, section.isScored, icon);
           grid.appendChild(tile);
         });
 
-        title.innerText = section.category;
-        countSpan.innerText = `${sectionDone} / ${section.items.length} done`;
-        title.appendChild(countSpan);
-
-        sectionEl.appendChild(title);
-        sectionEl.appendChild(grid);
-        container.appendChild(sectionEl);
+        body.appendChild(grid);
+        wrapper.appendChild(body);
+        container.appendChild(wrapper);
       });
 
-      // Update Top Metrics
       const percent = totalTiles > 0 ? Math.round((completedTiles / totalTiles) * 100) : 0;
       document.getElementById('stat-progress').innerText = `${percent}%`;
-      document.getElementById('stat-remaining').innerText = `${totalTiles - completedTiles} left`;
+      document.getElementById('stat-remaining').innerText = `${totalTiles - completedTiles} LEFT`;
       document.getElementById('stat-average').innerText = scoredCount > 0 ? `${Math.round(totalScores / scoredCount)}%` : '--';
     }
 
@@ -286,12 +255,14 @@
     const modalTitle = document.getElementById('modal-title');
     const modalLink = document.getElementById('modal-link');
     const modalScore = document.getElementById('modal-score');
+    const modalIcon = document.getElementById('modal-icon');
     const scoreContainer = document.getElementById('score-input-container');
 
-    function openModal(id, title, url, isScored) {
+    function openModal(id, title, url, isScored, icon) {
       activeTile = { id, title, isScored };
       modalTitle.innerText = title;
       modalLink.href = url;
+      modalIcon.innerText = icon;
       
       const record = userData[id] || {};
       modalScore.value = record.score ?? '';
