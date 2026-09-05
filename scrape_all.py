@@ -3,6 +3,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
+# The correct URLs for all 6 levels
 LEVEL_URLS = {
     "A1": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/",
     "A2": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/",
@@ -12,14 +13,13 @@ LEVEL_URLS = {
     "C2": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/"
 }
 
-HEADERS = {
+headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 
+# Added .pdf and .doc to the ignore list to skip checklists
 IGNORED_SLUGS = [
-    "easyreaders", "shop", "faq", "join", "sitemap", 
-    "contact", "privacy", "cookies", "best-of", "course-finder",
-    "how-to-learn-italian", "online-italian-lessons"
+    "easyreaders", "shop", "faq", "join", "sitemap", ".pdf", ".doc", ".docx"
 ]
 
 all_curriculum = {}
@@ -27,64 +27,47 @@ all_curriculum = {}
 for level, url in LEVEL_URLS.items():
     print(f"Scraping Level {level}...")
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=20)
+        resp = requests.get(url, headers=headers, timeout=15)
         resp.raise_for_status()
     except Exception as e:
-        print(f"Error fetching {level}: {e}")
+        print(f"Failed to fetch {level}: {e}")
         continue
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    content_area = soup.find("article") or soup.find("div", class_="entry-content") or soup.body
-
     sections = []
-    # Start with None so we don't catch intro links (like PDF or level selectors)
     current_section = None
 
-    for el in content_area.find_all(["h2", "h3", "h4", "p", "ul", "ol"]):
+    # Parse headers and link blocks, including h2 for higher levels
+    for el in soup.find_all(["h2", "h3", "h4", "p", "ul"]):
         if el.name in ["h2", "h3", "h4"]:
-            heading_text = el.get_text(strip=True)
-            
-            if heading_text and not any(term in heading_text.lower() for term in ["materials organised", "download", "contact", "need more", "leave a reply", "study checklist"]):
-                is_exercise = any(word in heading_text.lower() for word in ["exercise", "quiz", "quizzes", "test"])
+            heading = el.get_text(strip=True)
+            # Match section headers related to the course using your original logic
+            if any(k in heading.lower() for k in ["lesson", "listening", "exercise", "grammar", "vocab", level.lower()]):
                 current_section = {
-                    "category": heading_text,
-                    "isScored": is_exercise,
+                    "category": heading,
+                    "isScored": "exercise" in heading.lower() or "quiz" in heading.lower(),
                     "items": []
                 }
                 sections.append(current_section)
         
-        # Only collect links if we are currently inside a valid section
-        elif current_section is not None:
+        elif current_section:
             for a in el.find_all("a", href=True):
                 title = a.get_text(strip=True)
                 href = a["href"].split("#")[0].strip()
-
-                if not title or len(title) < 2 or not href.startswith("http"):
-                    continue
                 
-                # Ignore document downloads
-                if href.endswith(".pdf") or href.endswith(".doc") or href.endswith(".docx"):
-                    continue
+                # Filter out navigation, shop links, and PDFs
+                if title and href.startswith("http") and not any(x in href.lower() for x in IGNORED_SLUGS):
+                    # Avoid duplicates
+                    if not any(item["url"] == href for item in current_section["items"]):
+                        current_section["items"].append({
+                            "title": title,
+                            "url": href
+                        })
 
-                if any(slug in href.lower() for slug in IGNORED_SLUGS):
-                    continue
-
-                already_exists = any(
-                    any(item["url"] == href for item in s["items"]) 
-                    for s in sections
-                )
-
-                if not already_exists:
-                    current_section["items"].append({
-                        "title": title,
-                        "url": href
-                    })
-
+    # Clean out empty categories
     cleaned_sections = [s for s in sections if len(s["items"]) > 0]
     all_curriculum[level] = cleaned_sections
-    
-    total_links = sum(len(s["items"]) for s in cleaned_sections)
-    print(f"Found {len(cleaned_sections)} sections with {total_links} links for {level}.")
+    print(f"-> Found {len(cleaned_sections)} sections with {sum(len(s['items']) for s in cleaned_sections)} links.")
     time.sleep(1)
 
 with open("curriculum.json", "w", encoding="utf-8") as f:
