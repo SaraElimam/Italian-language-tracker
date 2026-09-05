@@ -3,7 +3,6 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-# URLs provided for all levels
 LEVEL_URLS = {
     "A1": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/",
     "A2": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/",
@@ -35,16 +34,11 @@ for level, url in LEVEL_URLS.items():
         continue
 
     soup = BeautifulSoup(resp.text, "html.parser")
-    
     content_area = soup.find("article") or soup.find("div", class_="entry-content") or soup.body
 
     sections = []
-    current_section = {
-        "category": f"{level} – Core Lessons & Materials",
-        "isScored": False,
-        "items": []
-    }
-    sections.append(current_section)
+    # Start with None so we don't catch intro links (like PDF or level selectors)
+    current_section = None
 
     for el in content_area.find_all(["h2", "h3", "h4", "p", "ul", "ol"]):
         if el.name in ["h2", "h3", "h4"]:
@@ -59,12 +53,17 @@ for level, url in LEVEL_URLS.items():
                 }
                 sections.append(current_section)
         
-        else:
+        # Only collect links if we are currently inside a valid section
+        elif current_section is not None:
             for a in el.find_all("a", href=True):
                 title = a.get_text(strip=True)
                 href = a["href"].split("#")[0].strip()
 
                 if not title or len(title) < 2 or not href.startswith("http"):
+                    continue
+                
+                # Ignore document downloads
+                if href.endswith(".pdf") or href.endswith(".doc") or href.endswith(".docx"):
                     continue
 
                 if any(slug in href.lower() for slug in IGNORED_SLUGS):
