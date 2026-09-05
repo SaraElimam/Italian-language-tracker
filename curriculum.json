@@ -1,56 +1,40 @@
 {
   "A1": [
     {
-      "category": "A1 – Beginner/Elementary Italian Lessons",
+      "category": "A1 – Core Lessons & Materials",
       "isScored": false,
       "items": [
         {
-          "title": "Articles",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-01-articles/"
+          "title": "A1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/"
         },
         {
-          "title": "Plurals",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-02-plurals/"
+          "title": "A2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/"
         },
         {
-          "title": "There is/There are",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-03-there-isare/"
+          "title": "B1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/"
         },
         {
-          "title": "Verbs in the present tense",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-04-verbs/"
+          "title": "B2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/"
         },
         {
-          "title": "Like – Piace / Piacciono",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-05-like/"
+          "title": "C1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/"
         },
         {
-          "title": "Adjectives",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-06-adjectives/"
+          "title": "C2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/"
         },
         {
-          "title": "Adverbs",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-07-adverbs/"
+          "title": "printable .pdf",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-A1-version-2.0.pdf"
         },
         {
-          "title": "The Past",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-09-the-past/"
-        },
-        {
-          "title": "Direct and indirect pronouns",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-09-direct-indirect-pronouns/"
-        },
-        {
-          "title": "Prepositions",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-10-prepositions/"
-        },
-        {
-          "title": "Reflexive verbs",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-11-reflexive-verbs/"
-        },
-        {
-          "title": "The Impersonal Form With ‘Si’",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-12-impersonal-si/"
+          "title": "editable .doc",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-A1-version-2.0.doc"
         }
       ]
     },
@@ -755,54 +739,46 @@
         {
           "title": "Vestiti / Clothes",
           "url": "https://onlineitalianclub.com/italian-vocabulary-clothes/"
-        },
-        {
-          "title": "Free Italian Exercises",
-          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/"
-        },
-        {
-          "title": "Online Italian Lessons",
-          "url": "https://nativespeakerteachers.com/"
         }
       ]
     }
   ],
   "A2": [
     {
-      "category": "A2 – Pre-Intermediate Italian Lessons",
+      "category": "A2 – Core Lessons & Materials",
       "isScored": false,
       "items": [
         {
-          "title": "Present Progressive Tense",
-          "url": "https://onlineitalianclub.com/free-online-italian-lessons-13-present-progressive-tense/"
+          "title": "A1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/"
         },
         {
-          "title": "Past Tense, Other Aspects",
-          "url": "https://onlineitalianclub.com/free-online-italian-lessons-14-past-tense-other-aspects/"
+          "title": "A2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/"
         },
         {
-          "title": "The Imperative",
-          "url": "https://onlineitalianclub.com/free-online-italian-lessons-15-the-imperative/"
+          "title": "B1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/"
         },
         {
-          "title": "The Imperfect Tense",
-          "url": "https://onlineitalianclub.com/free-online-italian-lessons-16-the-imperfect-tense/"
+          "title": "B2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/"
         },
         {
-          "title": "The Future Simple Tense",
-          "url": "https://onlineitalianclub.com/free-online-italian-lessons-17-the-future-simple-tense/"
+          "title": "C1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/"
         },
         {
-          "title": "Conditional Present",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-a2-3/"
+          "title": "C2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/"
         },
         {
-          "title": "Subjunctive Present",
-          "url": "https://onlineitalianclub.com/learn-italian-with-free-online-italian-lessons-a2-4/"
+          "title": "printable .pdf",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-A2-version-2.0.pdf"
         },
         {
-          "title": "Pronominal Verbs",
-          "url": "https://onlineitalianclub.com/free-online-italian-lessons-20-pronominal-verbs/"
+          "title": "editable .doc",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-A2-version-2.0.doc"
         }
       ]
     },
@@ -1347,18 +1323,1900 @@
         {
           "title": "Zodiaco / Zodiac",
           "url": "https://onlineitalianclub.com/vocabulary-zodiac/"
+        }
+      ]
+    }
+  ],
+  "B1": [
+    {
+      "category": "B1 – Core Lessons & Materials",
+      "isScored": false,
+      "items": [
+        {
+          "title": "A1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/"
         },
         {
-          "title": "October 3, 2014 at 1:28 pm",
-          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/#comment-3680"
+          "title": "A2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/"
         },
         {
-          "title": "Free Italian Exercises",
-          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/"
+          "title": "B1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/"
         },
         {
-          "title": "Online Italian Lessons",
-          "url": "https://nativespeakerteachers.com/"
+          "title": "B2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/"
+        },
+        {
+          "title": "C1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/"
+        },
+        {
+          "title": "C2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/"
+        },
+        {
+          "title": "printable .pdf",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-B1-version-2.0.pdf"
+        },
+        {
+          "title": "editable .doc",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-B1-version-2.0.doc"
+        }
+      ]
+    },
+    {
+      "category": "B1 – Intermediate Italian Listening Practice",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Agricoltura biologica / Biological agriculture",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/new-free-b1-level-italian-listening-exercises-28/"
+        },
+        {
+          "title": "Amare la lettura / Love reading",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listening-comprehension-exercise-b14/"
+        },
+        {
+          "title": "Animali / Animals",
+          "url": "https://onlineitalianclub.com/gli-animali-ascolto-b1/"
+        },
+        {
+          "title": "Annuncio di lavoro / Job advertisement",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listening-comprehension-exercise-b13/"
+        },
+        {
+          "title": "Campionato di cucina / Cooking championship",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/new-free-b1-level-italian-listening-exercises-68/"
+        },
+        {
+          "title": "Cercare una stanza/casa / Searching for a room/flat",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listening-comprehension-exercise-b11/"
+        },
+        {
+          "title": "Chi parla? / Who’s speaking?",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/new-free-b1-level-italian-listening-exercises-88/"
+        },
+        {
+          "title": "Colloquio di lavoro / Job interview",
+          "url": "https://onlineitalianclub.com/il-colloquio-di-lavoro-esercizio-di-ascolto-b2/"
+        },
+        {
+          "title": "Consigli letterari / Literary recommendations",
+          "url": "https://onlineitalianclub.com/consigli-letterari-esercizio-di-ascolto-b2/"
+        },
+        {
+          "title": "Cultura italiana / Italian culture",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listenings-with-transcripts-level-b1-listening-2/"
+        },
+        {
+          "title": "Emergenza incendi / Fire emergency",
+          "url": "https://onlineitalianclub.com/emergenza-incendi-esercizio-di-ascolto-b1b2/"
+        },
+        {
+          "title": "Espressioni idiomatiche con ‘mano’ / Idiomatic expressions with ‘mano’",
+          "url": "https://onlineitalianclub.com/frasi-idiomatiche-con-mano-b1-ascolto/"
+        },
+        {
+          "title": "Fori Imperiali / Imperial Forums",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/new-free-b1-level-italian-listening-exercises-58/"
+        },
+        {
+          "title": "Fratelli / Brothers",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listenings-with-transcripts-level-b1-listening-3/"
+        },
+        {
+          "title": "Giochi olimpici / Olympic Games",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listenings-with-transcripts-level-b1-listening-7/"
+        },
+        {
+          "title": "Giovani e il lavoro / Youth and employment",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listenings-with-transcripts-level-b1-listening-8/"
+        },
+        {
+          "title": "Harry Potter",
+          "url": "https://onlineitalianclub.com/hp-ascolto-b1/"
+        },
+        {
+          "title": "Influenza / Influence",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listening-comprehension-exercise-b15/"
+        },
+        {
+          "title": "Internet",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listenings-with-transcripts-level-b1-listening-5/"
+        },
+        {
+          "title": "Lettera 1/ Letter",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/new-free-b1-level-italian-listening-exercises-78/"
+        },
+        {
+          "title": "Lettera 2/ Letter",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listenings-with-transcripts-level-b1-listening-6/"
+        },
+        {
+          "title": "Mercatino dei libri usati /Used book market",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/new-free-b1-level-italian-listening-exercises-48/"
+        },
+        {
+          "title": "Particella CI / Pronominal particle CI",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-4-la-particella-ci/"
+        },
+        {
+          "title": "Particella NE / Pronominal particle NE",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-5-la-particella-ne/"
+        },
+        {
+          "title": "Particella SI / Pronominal particle SI",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-6-la-particella-si/"
+        },
+        {
+          "title": "Previsioni del tempo / Weather forecast",
+          "url": "https://onlineitalianclub.com/previsioni-meteo-ascolto-b1/"
+        },
+        {
+          "title": "Pronomi combinati / Combined pronouns",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-7-i-pronomi-combinati/"
+        },
+        {
+          "title": "Pronomi dimostrativi / Demonstrative pronouns",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-1-i-pronomi-dimostrativi/"
+        },
+        {
+          "title": "Pronomi diretti / Direct pronouns",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-2-i-pronomi-diretti/"
+        },
+        {
+          "title": "Pronomi indefiniti / Indefinite pronouns",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-9-i-pronomi-indefiniti/"
+        },
+        {
+          "title": "Pronomi indiretti / Indirect pronouns",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-3-i-pronomi-indiretti/"
+        },
+        {
+          "title": "Pronomi riflessivi / Reflexive pronouns",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/la-grammatica-ascoltata-b1-10-i-pronomi-riflessivi/"
+        },
+        {
+          "title": "Regole da rispettare ad un esame / Rules to follow at an examination",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listenings-with-transcripts-level-b1-listening-4/"
+        },
+        {
+          "title": "Serata fra amici / Night out with friends",
+          "url": "https://onlineitalianclub.com/una-serata-fra-amici-esercizio-di-ascolto-b1/"
+        },
+        {
+          "title": "Sogni / Dreams",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listenings-with-transcripts-level-b1-listening-1/"
+        },
+        {
+          "title": "Trasferimento in Italia / Moving to Italy",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/italian-listening-comprehension-exercise-b12/"
+        },
+        {
+          "title": "Vacanze di Natale / Christmas vacation",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/new-free-b1-level-italian-listening-exercises-38/"
+        },
+        {
+          "title": "Viaggi in aereo / Trips by plane",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/new-free-b1-level-italian-listening-exercises-18/"
+        }
+      ]
+    },
+    {
+      "category": "B1 – Intermediate Italian Grammar Explanations",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Condizionale composto / Composed conditional",
+          "url": "https://onlineitalianclub.com/condizionale-composto/"
+        },
+        {
+          "title": "Congiuntivo imperfetto / Subjunctive in the Imperfect tense",
+          "url": "https://onlineitalianclub.com/italian-grammar-congiuntivo-imperfetto/"
+        },
+        {
+          "title": "Congiuntivo passato / Subjunctive in the Past tense",
+          "url": "https://onlineitalianclub.com/italian-grammar-congiuntivo-passato/"
+        },
+        {
+          "title": "Congiuntivo presente / Subjunctive in the Present tense",
+          "url": "https://onlineitalianclub.com/congiuntivo-semplice"
+        },
+        {
+          "title": "Congiuntivo trapassato / Subjunctive in the Past Perfect tense",
+          "url": "https://onlineitalianclub.com/congiuntivo-trapassato/"
+        },
+        {
+          "title": "Forma impersonale con essere / Impersonal form with verb ‘to be’",
+          "url": "https://onlineitalianclub.com/la-forma-impersonale-con-essere/"
+        },
+        {
+          "title": "Forma passiva / Passive form",
+          "url": "https://onlineitalianclub.com/la-forma-passiva/"
+        },
+        {
+          "title": "Periodo ipotetico della possibilità / Conditional clause of the possibility",
+          "url": "https://onlineitalianclub.com/periodo-ipotetico-della-possibilita-conditional-clause-part-1/"
+        },
+        {
+          "title": "Periodo ipotetico dell’impossibilità / Conditional clause of the impossibility",
+          "url": "https://onlineitalianclub.com/periodo-ipotetico-dell-impossibilita/"
+        },
+        {
+          "title": "Pronomi combinati / Combined pronouns",
+          "url": "https://onlineitalianclub.com/italian-grammar-pronomi-combinati-combined-pronouns/"
+        },
+        {
+          "title": "Trapassato prossimo / Past Perfect tense",
+          "url": "https://onlineitalianclub.com/italian-grammartrapassato-prossimo/"
+        },
+        {
+          "title": "Uso di “prima di” / Use of “before”",
+          "url": "https://onlineitalianclub.com/use-of-prima-di/"
+        }
+      ]
+    },
+    {
+      "category": "B1 – Intermediate Italian Exercises",
+      "isScored": true,
+      "items": [
+        {
+          "title": "A/in/di/per/con?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/a_in_di_per_con_b1.html"
+        },
+        {
+          "title": "Abbinamenti / Combinations",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/domande_e_risposte.html"
+        },
+        {
+          "title": "Ambiente e riciclaggio / Environment and recycling",
+          "url": "https://onlineitalianclub.com/lambiente-e-il-riciclaggio-environment-and-recycling-b1/"
+        },
+        {
+          "title": "Avverbi 1 / Adverbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi1.html"
+        },
+        {
+          "title": "Avverbi 2 / Adverbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/il_senso_degli_avverbi2.html"
+        },
+        {
+          "title": "Cinema",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/cinema_b1.html"
+        },
+        {
+          "title": "Collega le parole alla frase giusta / Connect the words to the right phrase",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/collega_parole_frase_b1.html"
+        },
+        {
+          "title": "Collega l’immagine al nome 1 / Link the image to the name",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/immagini_nomi_b1.html"
+        },
+        {
+          "title": "Collega l’immagine al nome 2 / Link the image to the name",
+          "url": "https://onlineitalianclub.com/exercise-3-week-2-b1/"
+        },
+        {
+          "title": "Comparativo e superlativo / Comparative and superlative",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/es1.html"
+        },
+        {
+          "title": "Completa il dialogo / Complete the dialogue",
+          "url": "https://onlineitalianclub.com/exercise-1-week-2-b1/"
+        },
+        {
+          "title": "Computers",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/computers_b1.html"
+        },
+        {
+          "title": "Condizionale composto / Composed conditionalx",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/condizionale_composto_b1.html"
+        },
+        {
+          "title": "Condizionale composto",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_condizionale_composto.html"
+        },
+        {
+          "title": "Congiuntivo 1 / Subjunctive",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_B1.html"
+        },
+        {
+          "title": "Congiuntivo 2 / Subjunctive",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo2_b1.html"
+        },
+        {
+          "title": "Congiuntivo imperfetto / Subjunctive in the Imperfect tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_imperfetto_b1.html"
+        },
+        {
+          "title": "Congiuntivo imperfetto",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_congiuntivo_imperfetto.html"
+        },
+        {
+          "title": "Congiuntivo – imperfetto o trapassato / Subjunctive – Imperfect or Past Perfect tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo2_b1.html"
+        },
+        {
+          "title": "Congiuntivo passato / Subjunctive in the Past tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo-passato-b1.html"
+        },
+        {
+          "title": "Congiuntivo passato",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_congiuntivo_passato.html"
+        },
+        {
+          "title": "Congiuntivo passato – inserisci i verbi / Past subjunctive – insert the verbs",
+          "url": "https://onlineitalianclub.com/exercise-2-week-2-b1/"
+        },
+        {
+          "title": "Congiuntivo presente",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_congiuntivo_presente.html"
+        },
+        {
+          "title": "Congiuntivo: quale tempo? 1 / Subjunctive: which tense?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b1.html"
+        },
+        {
+          "title": "Congiuntivo: quale tempo? 2 / Subjunctive: which tense?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/tempo_del_congiuntivo.html"
+        },
+        {
+          "title": "Congiuntivo trapassato",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_congiuntivo_trapassato.html"
+        },
+        {
+          "title": "Congiunzioni 1 / Conjunctions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_indicativo.html"
+        },
+        {
+          "title": "Congiunzioni 2 / Conjunctions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_indicativo_o_congiuntivo.html"
+        },
+        {
+          "title": "Congiunzioni 3 / Conjunctions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/le_congiunzioini_b1.html"
+        },
+        {
+          "title": "Connettivi / Conjunctions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi1.html"
+        },
+        {
+          "title": "Contrari / Antonyms",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/contrari3.html"
+        },
+        {
+          "title": "Cruciverba letterario / Literary crossword",
+          "url": "https://onlineitalianclub.com/exercise-7-week-2-b1/"
+        },
+        {
+          "title": "Cucina / Kitchen",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/in_cucina_3.html"
+        },
+        {
+          "title": "Descrivere un oggetto / Describing an object",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/descrivere_oggetti_b1.html"
+        },
+        {
+          "title": "Dialogo con pronomi / Dialogue with pronouns",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/inserisci_pronomi_dialogo_b1.html"
+        },
+        {
+          "title": "Disastri naturali / Natural disasters",
+          "url": "https://onlineitalianclub.com/natural-disasters-2/"
+        },
+        {
+          "title": "Falsi alterati / False altered words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/falsi_alterati_2.html"
+        },
+        {
+          "title": "Famiglie di parole / Families of words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/famiglie_di_parole.html"
+        },
+        {
+          "title": "Feste in Italia / Celebrations in Italy",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/le_feste_in_italia_b1.html"
+        },
+        {
+          "title": "Forma passiva / Passive form",
+          "url": "https://onlineitalianclub.com/exercise-4-week-4-b1/"
+        },
+        {
+          "title": "Frasi spezzate / Broken phrases",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/ricomponi_frasi_b1.html"
+        },
+        {
+          "title": "Futuro semplice 1 / Future simple tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/inserisci_verbi_futuro_semplice_b1.html"
+        },
+        {
+          "title": "Futuro semplice 2 / Future simple tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/inserisci_verbi_futuro_semplice2_b1.html"
+        },
+        {
+          "title": "Geografia / Geography",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/geografia.html"
+        },
+        {
+          "title": "In, da, a, per?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/in_da_a_per_b1.html"
+        },
+        {
+          "title": "Inserisci le parole mancanti / Insert the missing words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/scegli_parole_mancante_b1.html"
+        },
+        {
+          "title": "Metterci, mettere, mettersi / To take/spend, to put, to put on",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/metterci_mettere_mettersi.html"
+        },
+        {
+          "title": "Montagna 1 / Mountain",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/la_montagna_1.html"
+        },
+        {
+          "title": "Montagna 2 / Mountain",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/la_montagna_2.html"
+        },
+        {
+          "title": "Natale / Christmas",
+          "url": "https://onlineitalianclub.com/bianco-natal/"
+        },
+        {
+          "title": "Nomi irregolari: maschile o femminile? / Irregular nouns – male o female?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_machile_o_femminile.html"
+        },
+        {
+          "title": "Oggetti in casa / Objects in the house",
+          "url": "https://onlineitalianclub.com/objects-in-the-house-2/"
+        },
+        {
+          "title": "Ordine delle parole / Order of the words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/lordine_delle_parole_b1.html"
+        },
+        {
+          "title": "Parole straniere in Italiano / Foreign words in Italian",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/parolestranierei.html"
+        },
+        {
+          "title": "Passato remoto 1 / Preterite tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/passato_remoto.html"
+        },
+        {
+          "title": "Passato remoto 2 / Preterite tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_1.html"
+        },
+        {
+          "title": "Passato remoto 3 / Preterite tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/pinocchio_remoto_2.html"
+        },
+        {
+          "title": "Periodi ipotetici / Conditional clauses",
+          "url": "https://onlineitalianclub.com/3154-2/"
+        },
+        {
+          "title": "Periodo ipotetico 1 / Conditional clause",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico.html"
+        },
+        {
+          "title": "Periodo ipotetico 2 / Conditional clause",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/condizionale_o_congiuntivo.html"
+        },
+        {
+          "title": "Periodo ipotetico 1",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_periodo_ipotetico_1.html"
+        },
+        {
+          "title": "Periodo ipotetico 2",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_periodo_ipotetico_2.html"
+        },
+        {
+          "title": "Preposizioni articolate",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_preposizioni_articolate.html"
+        },
+        {
+          "title": "Pronomi combinati 1 / Combined pronouns",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/pronomi_b1.html"
+        },
+        {
+          "title": "Pronomi combinati 2 / Combined pronouns",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/pronomi_combinati_b1.html"
+        },
+        {
+          "title": "Pronomi combinati",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_pronomi_combinati.html"
+        },
+        {
+          "title": "Pronomi relativi 1 / Relative pronouns",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/es6_1.html"
+        },
+        {
+          "title": "Pronomi relativi 2 / Relative pronouns",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/es6_2.html"
+        },
+        {
+          "title": "Riempi gli spazi con le parole date / Fill in the gaps with the given words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/parole_B1.html"
+        },
+        {
+          "title": "Scegli la parola giusta / Choose the right word",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/scegli_parole_giuste_b1.html"
+        },
+        {
+          "title": "Scegli la risposta corretta / Choose the correct answer",
+          "url": "https://onlineitalianclub.com/exercise-5-week-4-b1/"
+        },
+        {
+          "title": "Superlativo relativo e assoluto / Relative and absolute superlative",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/rel_o_ass.html"
+        },
+        {
+          "title": "Telefono / Phone",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/dialogo_parole_mancante_b1.html"
+        },
+        {
+          "title": "Trapassato prossimo / Past Perfect tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/trapassato_prossimo_b1.html"
+        },
+        {
+          "title": "Trapassato prossimo",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B1_trapassato_prossimo.html"
+        },
+        {
+          "title": "Uso dei tempi passati / Use of the past tenses",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/tempi_passati-b1.html"
+        },
+        {
+          "title": "Verbale / Record",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/il_verbale_b1.html"
+        },
+        {
+          "title": "Verbi al condizionale / Verbs in the conditional",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/uso_condizionale_b1.html"
+        },
+        {
+          "title": "Verbi e definizioni / Verbs and definitions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/collega_parole_definizioni_b1.html"
+        }
+      ]
+    },
+    {
+      "category": "B1 – Intermediate Italian Vocabulary Lessons",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Ambiente e Riciclaggio / Environment and Recycling",
+          "url": "https://onlineitalianclub.com/wastes-and-recycling/"
+        },
+        {
+          "title": "Bocca / Mouth",
+          "url": "https://onlineitalianclub.com/le-parti-del-corpo-nei-modi-di-dire-la-bocc/"
+        },
+        {
+          "title": "Cinema",
+          "url": "https://onlineitalianclub.com/cinema/"
+        },
+        {
+          "title": "Colori nelle frasi idiomatiche / Colors in idioms",
+          "url": "https://onlineitalianclub.com/colori-frasi-idiomatiche-1/"
+        },
+        {
+          "title": "Computers",
+          "url": "https://onlineitalianclub.com/computers-voc-b1-w4/"
+        },
+        {
+          "title": "Descrivere oggetti / Describing objects",
+          "url": "https://onlineitalianclub.com/describing-objects/"
+        },
+        {
+          "title": "Disastri naturali / Natural disasters",
+          "url": "https://onlineitalianclub.com/natural-disasters/"
+        },
+        {
+          "title": "Emergenze / Emergencies",
+          "url": "https://onlineitalianclub.com/emergencie/"
+        },
+        {
+          "title": "Geografia / Geography",
+          "url": "https://onlineitalianclub.com/geography-2/"
+        },
+        {
+          "title": "Lavori e il mercato del lavoro / Jobs and labour market",
+          "url": "https://onlineitalianclub.com/jobs-and-labour-market-b1-w3/"
+        },
+        {
+          "title": "Libri / Books",
+          "url": "https://onlineitalianclub.com/books-vocabulary-b1-2/"
+        },
+        {
+          "title": "Nomi 2 / Nouns",
+          "url": "https://onlineitalianclub.com/other-nouns/"
+        },
+        {
+          "title": "Nomi 3 / Nouns",
+          "url": "https://onlineitalianclub.com/other-nouns-b1-2/"
+        },
+        {
+          "title": "Oggetti in casa / Objects in the house",
+          "url": "https://onlineitalianclub.com/objects-in-the-house/"
+        },
+        {
+          "title": "Tipi di persone / Types of people",
+          "url": "https://onlineitalianclub.com/types-of-people/"
+        },
+        {
+          "title": "Verbi 3 / Verbs",
+          "url": "https://onlineitalianclub.com/other-verbs-b1-2/"
+        },
+        {
+          "title": "Verbi 4 / Verbs",
+          "url": "https://onlineitalianclub.com/other-verbs-b1-w3/"
+        },
+        {
+          "title": "Verbi 5 / Verbs",
+          "url": "https://onlineitalianclub.com/other-verbs-b1-w4/"
+        },
+        {
+          "title": "Verbi 6 / Verbs",
+          "url": "https://onlineitalianclub.com/other-verbs-b1-1/"
+        }
+      ]
+    }
+  ],
+  "B2": [
+    {
+      "category": "B2 – Core Lessons & Materials",
+      "isScored": false,
+      "items": [
+        {
+          "title": "A1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/"
+        },
+        {
+          "title": "A2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/"
+        },
+        {
+          "title": "B1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/"
+        },
+        {
+          "title": "B2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/"
+        },
+        {
+          "title": "C1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/"
+        },
+        {
+          "title": "C2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/"
+        },
+        {
+          "title": "printable .pdf",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-B2-version-2.0.pdf"
+        },
+        {
+          "title": "editable .doc",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-B2-version-2.0.doc"
+        }
+      ]
+    },
+    {
+      "category": "B2 – Upper-Intermediate Italian Listening Practice",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Barriere architettoniche / Barriers to wheelchair access",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/new-free-b2-level-italian-listening-exercises-78/"
+        },
+        {
+          "title": "Baronessa / Baroness",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/new-free-b2-level-italian-listening-exercises-18/"
+        },
+        {
+          "title": "Cambiamenti climatici / Climate changes",
+          "url": "https://onlineitalianclub.com/cambiamenti-climatici-ascolto-b2/"
+        },
+        {
+          "title": "Capodanno / New Year",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/new-free-b2-level-italian-listening-exercises-48/"
+        },
+        {
+          "title": "Cioccolata / Chocolate",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/new-free-b2-level-italian-listening-exercises-28/"
+        },
+        {
+          "title": "Colloquio di lavoro / Job interview",
+          "url": "https://onlineitalianclub.com/il-colloquio-di-lavoro-esercizio-di-ascolto-b2/"
+        },
+        {
+          "title": "Condizionale passato / Conditional past tense",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-717-condizionale-passato/"
+        },
+        {
+          "title": "Congiuntivo imperfetto / Subjunctive imperfect",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-1117-congiuntivo-imperfetto/"
+        },
+        {
+          "title": "Congiuntivo perfetto o passato / Subjunctive perfect or past",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-1217-congiuntivo-perfetto-o-passato/"
+        },
+        {
+          "title": "Congiuntivo piuccheperfetto o trapassato / Subjunctive more than perfect or past perfect",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-1017-congiuntivo-piuccheperfetto-o-trapassato/"
+        },
+        {
+          "title": "Congiuntivo presente / Subjunctive present tense",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-617-congiuntivo-presente/"
+        },
+        {
+          "title": "Consigli del perfetto turista / Advice from the perfect tourist",
+          "url": "https://onlineitalianclub.com/il-perfetto-turista-ascolto-b2/"
+        },
+        {
+          "title": "Crisi economica – gli effetti / Economic crisis – the effects",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/new-free-b2-level-italian-listening-exercises-68/"
+        },
+        {
+          "title": "Dipendenza da computer / Computer addiction",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-listenings-with-transcripts-level-b2-listening-6/"
+        },
+        {
+          "title": "Disavventura / Misadventure",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-listenings-with-transcripts-level-b2-listening-3/"
+        },
+        {
+          "title": "Festival della matematica / Festival of maths",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/new-free-b2-level-italian-listening-exercises-38/"
+        },
+        {
+          "title": "Fiori / Flowers",
+          "url": "https://onlineitalianclub.com/ditelo-coi-fiori-esercizio-di-ascolto-b2/"
+        },
+        {
+          "title": "Fondazione di Roma / The foundation of Rome",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-listenings-with-transcripts-level-b2-listening-1/"
+        },
+        {
+          "title": "Futuro anteriore / Future anterior",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-1717-il-futuro-anteriore/"
+        },
+        {
+          "title": "Gerundio presente e passato / Gerunds present and past",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-1617-gerundio-presente-e-passato/"
+        },
+        {
+          "title": "Gioco da bambini / Children’s games",
+          "url": "https://onlineitalianclub.com/un-gioco-da-bambini-ascolto-b1/"
+        },
+        {
+          "title": "Importanza di leggere / The importance of reading",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-listenings-with-transcripts-level-b2-listening-7/"
+        },
+        {
+          "title": "Inquinamento / Pollution",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-listenings-with-transcripts-level-b2-listening-4/"
+        },
+        {
+          "title": "Ladra famosa / A famous thief",
+          "url": "https://onlineitalianclub.com/ladra-in-citta-ascoltob2/"
+        },
+        {
+          "title": "Lettera formale / Formal letter",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-listenings-with-transcripts-level-b2-listening-2/"
+        },
+        {
+          "title": "Lingua straniera / A foreign language",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-listenings-with-transcripts-level-b2-listening-5/"
+        },
+        {
+          "title": "Mestieri / Professions",
+          "url": "https://onlineitalianclub.com/i-mestieri-esercizio-di-ascolto-b1-b2/"
+        },
+        {
+          "title": "Nome della via italiana – Amendola / Italian street names – Amendola",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-1212-amendola/"
+        },
+        {
+          "title": "Nome della via italiana – Cavour / Italian street names – Cavour",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-312-cavour/"
+        },
+        {
+          "title": "Nome della via italiana – D’Azeglio / Italian street names – D’Azeglio",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-1012-dazeglio/"
+        },
+        {
+          "title": "Nome della via italiana – Da Vinci / Italian street names – Da Vinci",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-512-da-vinci/"
+        },
+        {
+          "title": "Nome della via italiana – Fermi / Italian street names – Fermi",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-912-fermi/"
+        },
+        {
+          "title": "Nome della via italiana – Galilei / Italian street names – Galilei",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-812-galilei/"
+        },
+        {
+          "title": "Nome della via italiana – Galvani / Italian street names – Galvani",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-412-galvani/"
+        },
+        {
+          "title": "Nome della via italiana – Garibaldi / Italian street names – Garibaldi",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-112-garibaldi/"
+        },
+        {
+          "title": "Nome della via italiana – Malpighi / Italian street names – Malpighi",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-712-malpighi/"
+        },
+        {
+          "title": "Nome della via italiana – Marconi / Italian street name – Marconi",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-212-marconi/"
+        },
+        {
+          "title": "Nome della via italiana – Matteotti / Italian street names – Matteotti",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-1112-matteotti/"
+        },
+        {
+          "title": "Nome della via italiana – Mazzini / Italian street names – Mazzini",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-street-names-listening-series-612-mazzini/"
+        },
+        {
+          "title": "Notizie Sportive / Sports News",
+          "url": "https://onlineitalianclub.com/notizie-sportive-esercizio-di-ascolto-b2/"
+        },
+        {
+          "title": "Oroscopo / Horoscope",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/new-free-b2-level-italian-listening-exercises-58/"
+        },
+        {
+          "title": "Passato remoto verbi irregolari / Passato remoto irregular verbs",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-217-passato-remoto-verbi-irregolari/"
+        },
+        {
+          "title": "Passato remoto verbi regolari / Passato remoto regular verbs",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-117-passato-remoto-verbi-regolari/"
+        },
+        {
+          "title": "Passivo con verbo “essere” / Passive form of verb “to be”",
+          "url": "https://onlineitalianclub.com/advanced-italian-tense-forms-517-passivo-con-verbo-essere/"
+        },
+        {
+          "title": "Passivo con verbo “venire” / Passive form of verb “to come”",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-417-passivo-con-verbo-venire/"
+        },
+        {
+          "title": "Periodo ipotetico della possibilità / Conditional clause of the possibility",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-1417-periodo-ipotetico-della-possibilita/"
+        },
+        {
+          "title": "Periodo ipotetico della realtà / Conditional clause of the reality",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-1317-periodo-ipotetico-della-realta/"
+        },
+        {
+          "title": "Periodo ipotetico dell’irrealtà / Conditional clause of the unreality",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-1517-periodo-ipotetico-dellirrealta/"
+        },
+        {
+          "title": "Ritrovamento artistico / Artistic finding",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/new-free-b2-level-italian-listening-exercises-88/"
+        },
+        {
+          "title": "“Si” impersonale / Impersonal “si”",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-917-si-impersonale/"
+        },
+        {
+          "title": "Stagioni dell’anno / Seasons",
+          "url": "https://onlineitalianclub.com/le-stagioni-dellanno-esercizio-di-ascolto-b1b2/"
+        },
+        {
+          "title": "Trapassato prossimo / Past Perfect",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-317-trapassato-prossimo/"
+        },
+        {
+          "title": "Verbi causativi / Causative verbs",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/advanced-italian-verb-forms-817-verbi-causativi/"
+        },
+        {
+          "title": "Viaggiare / Travelling",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/italian-listenings-with-transcripts-level-b2-listening-8/"
+        }
+      ]
+    },
+    {
+      "category": "B2 – Upper-Intermediate Italian Grammar Explanations",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Aggettivi determinativi e relazionali / Definite and relational adjectives",
+          "url": "https://onlineitalianclub.com/aggettivi-determinativi-e-relazionali/"
+        },
+        {
+          "title": "Avverbi e congiunzioni con valore di connettori / Adverbs and conjunctions used as linkers",
+          "url": "https://onlineitalianclub.com/avverbi-e-congiunzioni-con-valore-di-connettori-adverbs-and-conjunctions-used-as-linkers/"
+        },
+        {
+          "title": "Costruzione scissa / Broken constuction",
+          "url": "https://onlineitalianclub.com/la-costruzione-scissa/"
+        },
+        {
+          "title": "Forma diminutiva e accrescitiva / Diminutives and augmentatives",
+          "url": "https://onlineitalianclub.com/la-forma-diminutiva-e-accrescitiva-diminutives-and-augmentatives/"
+        },
+        {
+          "title": "Forma passiva / Passive form",
+          "url": "https://onlineitalianclub.com/la-forma-passiva-2/"
+        },
+        {
+          "title": "Imperativo / Imperative form",
+          "url": "https://onlineitalianclub.com/imperativo-parte-2/"
+        },
+        {
+          "title": "Parole composte / Compound words",
+          "url": "https://onlineitalianclub.com/le-parole-composte-compound-words/"
+        },
+        {
+          "title": "Passato remoto / Preterite – the “remote” past tense",
+          "url": "https://onlineitalianclub.com/passato-remoto-the-remote-past-tense/"
+        },
+        {
+          "title": "Posizione degli aggettivi / Position of the adjectives",
+          "url": "https://onlineitalianclub.com/la-posizione-degli-aggettivi/"
+        },
+        {
+          "title": "Pronome relativo “che” / Relative pronoun “che”",
+          "url": "https://onlineitalianclub.com/il-pronome-relativo-che/"
+        },
+        {
+          "title": "Pronome relativo doppio “chi” / Relative double pronoun “chi”",
+          "url": "https://onlineitalianclub.com/il-pronome-relativo-doppio-chi/"
+        },
+        {
+          "title": "Quando si usa il congiuntivo? / When to use subjunctive?",
+          "url": "https://onlineitalianclub.com/quando-usare-il-congiuntivo/"
+        },
+        {
+          "title": "“Si” spersonalizzante / “Si” impersonal",
+          "url": "https://onlineitalianclub.com/il-si-spersonalizzante/"
+        }
+      ]
+    },
+    {
+      "category": "B2 – Upper-Intermediate Italian Exercises",
+      "isScored": true,
+      "items": [
+        {
+          "title": "A/di/per/con/su/tra",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/a_di_per_con_su_tra_b2.html"
+        },
+        {
+          "title": "Accenti / Accents",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/gli_accenti_b2.html"
+        },
+        {
+          "title": "Campagna / Countryside",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/la_campagna.html"
+        },
+        {
+          "title": "Cittá / Town",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/la_citta.html"
+        },
+        {
+          "title": "Concordanza dei tempi verbali / Consistency of verb tenses",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/concordanzatempi.html"
+        },
+        {
+          "title": "Concordanze verbali indicativo 1",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_1.html"
+        },
+        {
+          "title": "Concordanze verbali indicativo 2",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_concordanze_verbali_indicativo_2.html"
+        },
+        {
+          "title": "Congiuntivo o indicativo?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_indicativo_o_congiuntivo.html"
+        },
+        {
+          "title": "Congiuntivo con avverbi e congiunzioni",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_avverbi_e_congiunzioni_con_il_congiuntivo.html"
+        },
+        {
+          "title": "Congiuntivo, uso del (1)",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_1.html"
+        },
+        {
+          "title": "Congiuntivo, uso del (2)",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_uso_del_congiuntivo_2.html"
+        },
+        {
+          "title": "Connettivi 1",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi.html"
+        },
+        {
+          "title": "Connettivi 2",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/connettivi2.html"
+        },
+        {
+          "title": "Costruzione scissa / Broken constuction",
+          "url": "https://onlineitalianclub.com/esercizio-la-costruzione-scissa-b2/"
+        },
+        {
+          "title": "Cucina / Kitchen",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/in_cucina_2.html"
+        },
+        {
+          "title": "Esclamazioni 1 / Exclamations",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/esclamazioni.html"
+        },
+        {
+          "title": "Esclamazioni 2 / Exclamations",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/esclamazioni2.html"
+        },
+        {
+          "title": "Espressioni italiane / Italian expressions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/collega_espressioni_significato.html"
+        },
+        {
+          "title": "Espressioni varie / Different expressions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/espressioni_varie.html"
+        },
+        {
+          "title": "Falsi alterati / False altered words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/falsi_alterati_1.html"
+        },
+        {
+          "title": "Fare, usi del verbo",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_usi_del_verbo_fare.html"
+        },
+        {
+          "title": "Forma passiva",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_forma_passiva.html"
+        },
+        {
+          "title": "Forma passiva / Passive form",
+          "url": "https://onlineitalianclub.com/esercizio-la-forma-passiva-b2/"
+        },
+        {
+          "title": "Generi letterari / Literary Genres",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/generiletterari.html"
+        },
+        {
+          "title": "Magari / Maybe",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/magari.html"
+        },
+        {
+          "title": "Modi di dire 1 / Idioms",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/modi_di_dire_b2.html"
+        },
+        {
+          "title": "Modi di dire 2 / Idioms",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/modi_di_dire.html"
+        },
+        {
+          "title": "Modi di dire sul tempo / Idioms about time",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/modi_di_dire_sul_tempo_b2.html"
+        },
+        {
+          "title": "Montagna / Mountain",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/in_montagna.html"
+        },
+        {
+          "title": "Nascita del tortellino / Birth of tortellino",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/nascita_tortellino.html"
+        },
+        {
+          "title": "Ordine delle parole / Order of the words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/lordine_delle_parole_b2.html"
+        },
+        {
+          "title": "Parole composte / Compound words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/parolecomposte.html"
+        },
+        {
+          "title": "Parole di politica / Words about politics",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/paroladipolitica.html"
+        },
+        {
+          "title": "Parole simili / Similar words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/parole_simili.html"
+        },
+        {
+          "title": "Parole sull’arte / Words about art",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/lessico_arte.html"
+        },
+        {
+          "title": "Passato remoto / Preterite – the “remote” past tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/il_passato_remoto_c1.html"
+        },
+        {
+          "title": "Passato remoto",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_passato_remoto.html"
+        },
+        {
+          "title": "Periodo ipotetico 1 / Conditional clause",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico.html"
+        },
+        {
+          "title": "Periodo ipotetico 2 / Conditional clause",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/fra_periodo_ipotetico2.html"
+        },
+        {
+          "title": "Plurale dei nomi composti / Plural of the compound words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/nomi_composti_plurale.html"
+        },
+        {
+          "title": "Posizione degli aggettivi / Position of the adjectives",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/posizioneaggettivi.html"
+        },
+        {
+          "title": "Prefisso “neo” nelle parole / Prefix “neo” in the words",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/paroleneo.html"
+        },
+        {
+          "title": "Preposizioni/ Prepositions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/le_preposizioni_b2.html"
+        },
+        {
+          "title": "Professioni maschili e femminili / Male and female professions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/mestieri_maschile_feminile.html"
+        },
+        {
+          "title": "Pronomi relativi",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/B2_pronomi_relativi_1.html"
+        },
+        {
+          "title": "Proverbi 1 / Proverbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/proverbi_1.html"
+        },
+        {
+          "title": "Proverbi 2 / Proverbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/proverbi_2.html"
+        },
+        {
+          "title": "Proverbi 3 / Proverbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/proverbi_3.html"
+        },
+        {
+          "title": "Proverbi 4 / Proverbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/proverbi_4.html"
+        },
+        {
+          "title": "Proverbi 5 / Proverbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/proverbi2.html"
+        },
+        {
+          "title": "Quiz sui Gialli / Quiz on Thrillers",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/conoscete_i_gialli.html"
+        },
+        {
+          "title": "Reati / Crimes",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/i_reati_b1.html"
+        },
+        {
+          "title": "Ristrutturazione della casa / Renovation of the house",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/ristrutturiamolacasa.html"
+        },
+        {
+          "title": "Scegli la parola giusta / Choose the right word",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/inserisci_parola_corretta_b1.html"
+        },
+        {
+          "title": "Sfumature di significato / Nuances of meaning",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/sfumature_di_significato.html"
+        },
+        {
+          "title": "Si + verbo / Si + verb",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/si_verbo_b2.html"
+        },
+        {
+          "title": "“Si” spersonalizzante / “Si” impersonal",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/si_spersonalizzante_b2.html"
+        },
+        {
+          "title": "Superlativi idiomatici / Idiomatic superlatives",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/superlativi_idiomatici.html"
+        },
+        {
+          "title": "Tempo metereologico / Weather",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/tempo.html"
+        },
+        {
+          "title": "Uso del congiuntivo / Use of subjunctive",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/uso_congiuntivo_b2.html"
+        },
+        {
+          "title": "Uso del verbo “venire” / Use of the verb “to come”",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/usi_venire.html"
+        },
+        {
+          "title": "Verbi pronominali al presente / Pronominal verbs at present tense",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/pronominali.html"
+        }
+      ]
+    },
+    {
+      "category": "B2 – Upper-Intermediate Italian Vocabulary",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Aggettivi e verbi / Adjectives and verbs",
+          "url": "https://onlineitalianclub.com/other-adjectives-and-verbs-b2-w3/"
+        },
+        {
+          "title": "Animali 2 / Animals",
+          "url": "https://onlineitalianclub.com/animals-2/"
+        },
+        {
+          "title": "Contrari / Antonyms",
+          "url": "https://onlineitalianclub.com/i-contrari/"
+        },
+        {
+          "title": "Crime",
+          "url": "https://onlineitalianclub.com/crime-il-crimine/"
+        },
+        {
+          "title": "Cucinare e Cuocere in forno / Cooking and Baking",
+          "url": "https://onlineitalianclub.com/cooking-and-baking-cucinare/"
+        },
+        {
+          "title": "Espressioni comuni / Common expressions",
+          "url": "https://onlineitalianclub.com/common-expression/"
+        },
+        {
+          "title": "Generi letterari / Literary Genres",
+          "url": "https://onlineitalianclub.com/literature-and-genres-b2-w2/"
+        },
+        {
+          "title": "Giochi: Carte e Scacchi / Games: Cards and Chess",
+          "url": "https://onlineitalianclub.com/plays-cards-and-chess/"
+        },
+        {
+          "title": "Mafia",
+          "url": "https://onlineitalianclub.com/mafia-vocabular/"
+        },
+        {
+          "title": "Naso nei modi di dire / Nose in idioms",
+          "url": "https://onlineitalianclub.com/le-parti-del-corpo-nei-modi-di-dire-il-naso-b2/"
+        },
+        {
+          "title": "Parole difficili / Tricky words",
+          "url": "https://onlineitalianclub.com/tricky-words/"
+        },
+        {
+          "title": "Parole utili / Useful words",
+          "url": "https://onlineitalianclub.com/other-useful-words-b2-w1/"
+        },
+        {
+          "title": "Professioni 3 / Professions",
+          "url": "https://onlineitalianclub.com/professions-3-b1-w1/"
+        },
+        {
+          "title": "Psicologia 1 / Psychology",
+          "url": "https://onlineitalianclub.com/psychology-la-psicologia/"
+        },
+        {
+          "title": "Psicologia 2 / Psychology",
+          "url": "https://onlineitalianclub.com/psychology-2-2/"
+        },
+        {
+          "title": "Sistema politico italiano / Italian Political System",
+          "url": "https://onlineitalianclub.com/italian-political-system/"
+        },
+        {
+          "title": "Teatro e Opera / Theatre and Opera",
+          "url": "https://onlineitalianclub.com/theatre-opera/"
+        },
+        {
+          "title": "Viaggiare / Travelling",
+          "url": "https://onlineitalianclub.com/travelling-viaggiare/"
+        }
+      ]
+    }
+  ],
+  "C1": [
+    {
+      "category": "C1 – Core Lessons & Materials",
+      "isScored": false,
+      "items": [
+        {
+          "title": "A1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/"
+        },
+        {
+          "title": "A2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/"
+        },
+        {
+          "title": "B1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/"
+        },
+        {
+          "title": "B2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/"
+        },
+        {
+          "title": "C1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/"
+        },
+        {
+          "title": "C2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/"
+        },
+        {
+          "title": "printable .pdf",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-C1-version-2.0.pdf"
+        },
+        {
+          "title": "editable .doc",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-C1-version-2.0.doc"
+        }
+      ]
+    },
+    {
+      "category": "C1 – Advanced Italian Listening Practice",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Alieni / Aliens",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/italian-listenings-with-transcripts-level-c1-listening-4/"
+        },
+        {
+          "title": "Amore ai tempi di internet / Love in the age of the Internet",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/italian-listenings-with-transcripts-level-c1-listening-8/"
+        },
+        {
+          "title": "Casi della vita / Coincidences",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/italian-listenings-with-transcripts-level-c1-listening-2/"
+        },
+        {
+          "title": "Cibo italiano (DOC) / Italian food (original)",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/new-free-c1-level-italian-listening-exercises-28/"
+        },
+        {
+          "title": "Commercio dell’usato / Second hand market",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/new-free-c1-level-italian-listening-exercises-48/"
+        },
+        {
+          "title": "Fedeltà e Tradimento / Faithfulness and betrayal",
+          "url": "https://onlineitalianclub.com/fedelta-e-tradimento-ascolto-c1/"
+        },
+        {
+          "title": "Festa di compleanno / Birthday party",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/italian-listenings-with-transcripts-level-c1-listening-1/"
+        },
+        {
+          "title": "Fiera dell’Editoria / Publishing Fair",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/new-free-c1-level-italian-listening-exercises-18/"
+        },
+        {
+          "title": "Furto / Theft",
+          "url": "https://onlineitalianclub.com/un-furto-esercizio-di-ascolto-c1/"
+        },
+        {
+          "title": "Integrazione / Integration",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/italian-listenings-with-transcripts-level-c1-listening-3/"
+        },
+        {
+          "title": "Italiani all’estero / Italians abroad",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/new-free-c1-level-italian-listening-exercises-78/"
+        },
+        {
+          "title": "Letteratura italiana / Italian literature",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/italian-listenings-with-transcripts-level-c1-listening-5/"
+        },
+        {
+          "title": "Matrimonio o convivenza / Marriage or living together",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/new-free-c1-level-italian-listening-exercises-68/"
+        },
+        {
+          "title": "Pittore italiano – Giotto / Italian painter – Giotto",
+          "url": "https://onlineitalianclub.com/ascolto-giotto-b2/"
+        },
+        {
+          "title": "Prima donna italiana nello spazio / First Italian woman in space",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/new-free-c1-level-italian-listening-exercises-88/"
+        },
+        {
+          "title": "Sistema scolastico italiano / The Italian school system",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/italian-listenings-with-transcripts-level-c1-listening-7/"
+        },
+        {
+          "title": "Stagione sciistica / Skiing season",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/new-free-c1-level-italian-listening-exercises-38/"
+        },
+        {
+          "title": "Terremoto / Earthquake",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/new-free-c1-level-italian-listening-exercises-58/"
+        },
+        {
+          "title": "Vivere in Italia / Living in Italy",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/italian-listenings-with-transcripts-level-c1-listening-6/"
+        }
+      ]
+    },
+    {
+      "category": "C1 – Advanced Italian Grammar Explanations",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Costruzione fare + infinito / Construction make + infinitive",
+          "url": "https://onlineitalianclub.com/la-costruzione-fare-infinito-the-construction-make-infinitive/"
+        },
+        {
+          "title": "Discorso indiretto / Reported speech",
+          "url": "https://onlineitalianclub.com/il-discorso-indiretto/"
+        },
+        {
+          "title": "Gerundio composto / Compound gerund",
+          "url": "https://onlineitalianclub.com/gerundio-composto/"
+        },
+        {
+          "title": "Gerundio semplice / Simple gerund",
+          "url": "https://onlineitalianclub.com/gerundio-semplice/"
+        },
+        {
+          "title": "Infinito / Infinitive",
+          "url": "https://onlineitalianclub.com/linfinito-the-infinitive/"
+        },
+        {
+          "title": "Locuzioni avverbiali / Adverb phrases",
+          "url": "https://onlineitalianclub.com/locuzioni-avverbiali-adverb-phrases/"
+        },
+        {
+          "title": "Mica / At all",
+          "url": "https://onlineitalianclub.com/mica/"
+        },
+        {
+          "title": "Parole di difficile comprensione e uso / Difficult words",
+          "url": "https://onlineitalianclub.com/parole-di-difficile-comprensione-e-uso-difficult-words/"
+        },
+        {
+          "title": "Participio / Participle",
+          "url": "https://onlineitalianclub.com/il-participio/"
+        },
+        {
+          "title": "Piuttosto che / Rather than",
+          "url": "https://onlineitalianclub.com/piuttosto-che/"
+        },
+        {
+          "title": "Pronomi e aggettivi indefiniti / Indefinite pronouns and adjectives",
+          "url": "https://onlineitalianclub.com/pronomi-e-aggettivi-indefiniti/"
+        },
+        {
+          "title": "Quando usare “non” / When to use “non”",
+          "url": "https://onlineitalianclub.com/quando-usare-non/"
+        },
+        {
+          "title": "Uso e omissione degli articoli / Use and omission of articles",
+          "url": "https://onlineitalianclub.com/uso-e-omissione-degli-articoli/"
+        },
+        {
+          "title": "Verbi pronominali / Pronominal verbs",
+          "url": "https://onlineitalianclub.com/verbi-pronominali/"
+        }
+      ]
+    },
+    {
+      "category": "C1 – Advanced Italian Exercises",
+      "isScored": true,
+      "items": [
+        {
+          "title": "Aggettivi di relazioni irregolari / Adjectives of irregular relations",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/aggrelirr.html"
+        },
+        {
+          "title": "Aggettivi indefiniti / Indefinite adjectives",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/aggettiviindefiniti.html"
+        },
+        {
+          "title": "Articoli, uso o omissione degli",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_uso_o_omissione_degli_articoli.html"
+        },
+        {
+          "title": "Congiuntivo / Subjunctive",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/congiuntivo_concordanza.html"
+        },
+        {
+          "title": "Discorso indiretto 1 / Reported speech",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/concordanze_verbali_c1.html"
+        },
+        {
+          "title": "Discorso indiretto 2 / Reported speech",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/discorso_indiretto_liv.html"
+        },
+        {
+          "title": "Gerundio: presente o passato? / Gerund: present or past?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/gerundio_passato_c1.html"
+        },
+        {
+          "title": "Gerundio o participio? / Gerund or participle?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/gerundio_o_participio_c1.html"
+        },
+        {
+          "title": "Indefiniti, modi",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_modi_indefiniti.html"
+        },
+        {
+          "title": "Indefiniti, pronomi e aggettivi",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_pronomi_e_aggettivi_indefiniti.html"
+        },
+        {
+          "title": "Infinito, gerundio o participio? / Infinitive, gerund or participle?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/gerundio_presente_c1.html"
+        },
+        {
+          "title": "Gerundio semplice e composto",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_gerundio_semplice_o_composto.html"
+        },
+        {
+          "title": "Mica / At all",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/mica_c1.html"
+        },
+        {
+          "title": "Modi di dire e frasi fatte / Idioms and phrases",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/modi_di_dire_e_frasi_fatte_c1.html"
+        },
+        {
+          "title": "Nomi irregolari / Irregular nouns",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/nomi_irregolari_trasforma_al_femminile.html"
+        },
+        {
+          "title": "Il participio passato",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_il_participio_passato.html"
+        },
+        {
+          "title": "Non pleonastico / Pleonastic “non”",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/nonpleonastico.html"
+        },
+        {
+          "title": "Periodo ipotetico / Hypothetical period",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/periodo_ipotetico_c1.html"
+        },
+        {
+          "title": "Preposizioni",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_1.html"
+        },
+        {
+          "title": "Preposizioni",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_preposizioni_2.html"
+        },
+        {
+          "title": "Tempo libero: il teatro / Free time: theater",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/inserisci_parole_giuste_c1.html"
+        },
+        {
+          "title": "Uso di “mica” / Use of “mica”",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/funzione_mica_c1.html"
+        },
+        {
+          "title": "Verbi pronominali 1 / Pronominal verbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali_c1.html"
+        },
+        {
+          "title": "Verbi pronominali 2 / Pronominal verbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali2_c1.html"
+        },
+        {
+          "title": "Verbi pronominali 3 / Pronominal verbs",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/verbi_pronominali.html"
+        },
+        {
+          "title": "Verbi pronominali",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_1.html"
+        },
+        {
+          "title": "Verbi pronominali",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_verbi_pronominali_2.html"
+        },
+        {
+          "title": "Si spersonalizzante",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C1_si_spersonalizzante.html"
+        }
+      ]
+    },
+    {
+      "category": "C1 – Advanced Italian Vocabulary",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Espressioni comuni con i verbi ad alta frequenza / Common expressions with high frequency verbs",
+          "url": "https://onlineitalianclub.com/useful-expressions-c1/"
+        },
+        {
+          "title": "Occhi nei modi di dire / Eyes in idioms",
+          "url": "https://onlineitalianclub.com/le-parti-del-corpo-nei-modi-di-dire-gli-occhi/"
+        },
+        {
+          "title": "Orecchie nei modi di dire / Ears in idioms",
+          "url": "https://onlineitalianclub.com/le-parti-del-corpo-nei-modi-di-dire-le-orecchie-c1/"
+        }
+      ]
+    }
+  ],
+  "C2": [
+    {
+      "category": "C2 – Core Lessons & Materials",
+      "isScored": false,
+      "items": [
+        {
+          "title": "A1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/"
+        },
+        {
+          "title": "A2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/"
+        },
+        {
+          "title": "B1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/"
+        },
+        {
+          "title": "B2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/"
+        },
+        {
+          "title": "C1",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/"
+        },
+        {
+          "title": "C2",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/"
+        },
+        {
+          "title": "printable .pdf",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-C2-version-2.0.pdf"
+        },
+        {
+          "title": "editable .doc",
+          "url": "https://onlineitalianclub.com/wp-content/uploads/2026/01/checklist-C2-version-2.0.doc"
+        }
+      ]
+    },
+    {
+      "category": "C2 – Proficiency Italian Listening Practice",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Bullismo / Bullying",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/italian-listenings-with-transcripts-level-c2-listening-3/"
+        },
+        {
+          "title": "Caccia in Italia / Hunting in Italy",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/new-free-c2-level-italian-listening-exercises-28/"
+        },
+        {
+          "title": "Certificazioni linguistiche / Language certificates",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/italian-listenings-with-transcripts-level-c2-listening-7/"
+        },
+        {
+          "title": "Cibo spazzatura / Junk food",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/new-free-c2-level-italian-listening-exercises-88/"
+        },
+        {
+          "title": "Crisi e cultura / The crisis and culture",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/new-free-c2-level-italian-listening-exercises-38/"
+        },
+        {
+          "title": "Discussione tra colleghi / Discussion between colleagues",
+          "url": "https://onlineitalianclub.com/una-discussione-fra-colleghi-esercizio-di-ascolto-c1c2/"
+        },
+        {
+          "title": "Donne di scienza italiane / Italian women in science",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/new-free-c2-level-italian-listening-exercises-78/"
+        },
+        {
+          "title": "Frasi Idiomatiche / Idiomatic phrases",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/new-free-c2-level-italian-listening-exercises-48/"
+        },
+        {
+          "title": "Malattie dei bambini / Children’s diseases",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/new-free-c2-level-italian-listening-exercises-68/"
+        },
+        {
+          "title": "Matrimonio / Marriage",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/italian-listenings-with-transcripts-level-c2-listening-8/"
+        },
+        {
+          "title": "Patrimonio Artistico / Artistic Heritage",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/italian-listenings-with-transcripts-level-c2-listening-2/"
+        },
+        {
+          "title": "Popolazioni della foresta amazzonica / Populations of the Amazon rainforest",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/italian-listenings-with-transcripts-level-c2-listening-6/"
+        },
+        {
+          "title": "Regali per il Natale / Gifts for Christmas",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/new-free-c2-level-italian-listening-exercises-58/"
+        },
+        {
+          "title": "Viaggiare / Traveling",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/new-free-c2-level-italian-listening-exercises-18/"
+        },
+        {
+          "title": "Vita eco-sostenibile / An eco-sustainable life",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/italian-listenings-with-transcripts-level-c2-listening-4/"
+        },
+        {
+          "title": "Volontariato / Volunteer",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/italian-listenings-with-transcripts-level-c2-listening-1/"
+        },
+        {
+          "title": "Zooterapia / Zootherapy",
+          "url": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/italian-listenings-with-transcripts-level-c2-listening-5/"
+        }
+      ]
+    },
+    {
+      "category": "C2 – Proficiency Italian Grammar Explanations",
+      "isScored": false,
+      "items": [
+        {
+          "title": "Altri usi del congiuntivo / Other uses of congiuntivo",
+          "url": "https://onlineitalianclub.com/altri-usi-del-congiuntivo/"
+        },
+        {
+          "title": "Articoli determinativi con nomi propri e toponimi / Determinative articles (exceptions)",
+          "url": "https://onlineitalianclub.com/articoli-determinativi-con-nomi-propri-e-di-citta/"
+        },
+        {
+          "title": "Concordanze verbali / Tense consistency",
+          "url": "https://onlineitalianclub.com/concordanze-verbali/"
+        },
+        {
+          "title": "Congiunzioni / Connectives",
+          "url": "https://onlineitalianclub.com/congiunzioni-connectives/"
+        },
+        {
+          "title": "Connettivi vari / Conjunctions",
+          "url": "https://onlineitalianclub.com/italian-grammar-conjunctions-connettivi/"
+        },
+        {
+          "title": "Finchè / Finchè non / Until (/as long as)",
+          "url": "https://onlineitalianclub.com/finche-finche-non/"
+        },
+        {
+          "title": "Particelle pronominali “ci” e “ne” / Pronominal particles “ci” and “ne”",
+          "url": "https://onlineitalianclub.com/particelle-pronominali-ci-ne/"
+        },
+        {
+          "title": "Plurale dei nomi composti / Plural form of compound nouns",
+          "url": "https://onlineitalianclub.com/il-plurale-dei-nomi-composti-plural-form-of-italian-compound-nouns/"
+        },
+        {
+          "title": "Preposizioni (semplici) / Prepositions",
+          "url": "https://onlineitalianclub.com/le-preposizioni/"
+        },
+        {
+          "title": "Preposizioni articolate / Compound prepositions",
+          "url": "https://onlineitalianclub.com/preposizioni-articolate/"
+        },
+        {
+          "title": "Pronomi dimostrativi / demonstrative pronouns",
+          "url": "https://onlineitalianclub.com/pronomi-dimostrativi/"
+        },
+        {
+          "title": "Pronomi relativi “che” e “cui” / Relative pronouns ‘che’ and ‘cui’",
+          "url": "https://onlineitalianclub.com/pronomi-relativi-che-e-cui/"
+        },
+        {
+          "title": "Pronomi relativi possessivi / Possessive relative pronouns",
+          "url": "https://onlineitalianclub.com/pronomi-relativi-possessivi/"
+        }
+      ]
+    },
+    {
+      "category": "C2 – Proficiency Italian Exercises",
+      "isScored": true,
+      "items": [
+        {
+          "title": "Burocrazia / Bureaucracy",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/la_burocrazia_c2.html"
+        },
+        {
+          "title": "Che o cui? / What or whom?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/che_cui_c2.html"
+        },
+        {
+          "title": "Concordanze verbali",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_1.html"
+        },
+        {
+          "title": "Concordanze verbali 2",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_concordanze_verbali_2.html"
+        },
+        {
+          "title": "Congiunzioni / Connectives",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/congiunzioni_c1.html"
+        },
+        {
+          "title": "Connettivi e congiunzioni subordinanti",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti.html"
+        },
+        {
+          "title": "Connettivi e congiunzioni subordinanti 2",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_connettivi_e_congiunzioni_subordinanti_2.html"
+        },
+        {
+          "title": "Finche/Affinche / Until (/as long as)",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/finche_affinche_c2.html"
+        },
+        {
+          "title": "Finché o affinché?",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_finche_o_affinche.html"
+        },
+        {
+          "title": "Linguaggio giuridico / Legal language",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/linguaggio_giuridico.html"
+        },
+        {
+          "title": "Locuzioni avverbiali",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_locuzioni_avverbiali.html"
+        },
+        {
+          "title": "Parte delle macchine / Parts of the machines",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/dalmeccanico.html"
+        },
+        {
+          "title": "Particelle pronominali ci e ne",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_particelle_pronominali_CI_e_NE.html"
+        },
+        {
+          "title": "Preposizioni articolate / Compound prepositions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/preposizioni_articolate_c2.html"
+        },
+        {
+          "title": "Preposizioni articolate",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_preposizioni_articolate_2.html"
+        },
+        {
+          "title": "Preposizioni semplici 1 / Simple prepositions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici_c2.html"
+        },
+        {
+          "title": "Preposizioni semplici 2 / Simple prepositions",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/preposizioni-semplici1_c2.html"
+        },
+        {
+          "title": "Pronomi relativi",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_2.html"
+        },
+        {
+          "title": "Pronomi relativi possessivi",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/C2_pronomi_relativi_possessivi.html"
+        },
+        {
+          "title": "Rapina 1 / Robbery",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/la_rapina1.html"
+        },
+        {
+          "title": "Rapina 2 / Robbery",
+          "url": "https://onlineitalianclub.com/free_italian_exercises/la_rapina2.html"
+        },
+        {
+          "title": "Sentimenti e il carattere / Feelings and character",
+          "url": "https://onlineitalianclub.com/sentimenti-e-carattere-c2/"
         }
       ]
     }
