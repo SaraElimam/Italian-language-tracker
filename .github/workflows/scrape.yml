@@ -3,18 +3,18 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
-# Verified URLs for all 6 levels on Online Italian Club
+# The exact, verified URLs for all 6 levels
 LEVEL_URLS = {
     "A1": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-beginner-level-a1/",
-    "A2": "https://onlineitalianclub.com/pre-intermediate-a2/",
-    "B1": "https://onlineitalianclub.com/intermediate-b1/",
-    "B2": "https://onlineitalianclub.com/upper-intermediate-b2/",
-    "C1": "https://onlineitalianclub.com/advanced-c1/",
-    "C2": "https://onlineitalianclub.com/proficiency-c2/"
+    "A2": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-pre-intermediate-level-a2/",
+    "B1": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-intermediate-b1/",
+    "B2": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-upper-intermediate-b2/",
+    "C1": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-advanced-c1/",
+    "C2": "https://onlineitalianclub.com/free-italian-exercises-and-resources/online-italian-course-proficient-c2/"
 }
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 }
 
 IGNORED_SLUGS = [
@@ -26,7 +26,7 @@ IGNORED_SLUGS = [
 all_curriculum = {}
 
 for level, url in LEVEL_URLS.items():
-    print(f"Scraping Level {level} from: {url}")
+    print(f"Scraping Level {level}...")
     try:
         resp = requests.get(url, headers=HEADERS, timeout=20)
         resp.raise_for_status()
@@ -36,7 +36,7 @@ for level, url in LEVEL_URLS.items():
 
     soup = BeautifulSoup(resp.text, "html.parser")
     
-    # Target the primary article / content wrapper
+    # Target the primary content area where the lists live
     content_area = soup.find("article") or soup.find("div", class_="entry-content") or soup.body
 
     sections = []
@@ -47,13 +47,12 @@ for level, url in LEVEL_URLS.items():
     }
     sections.append(current_section)
 
+    # The higher levels use h2, h3, h4, and strong tags for titles
     for el in content_area.find_all(["h2", "h3", "h4", "p", "ul", "ol"]):
-        # Identify section headers
         if el.name in ["h2", "h3", "h4"]:
             heading_text = el.get_text(strip=True)
             
-            # Avoid site header repeats or navigation blocks
-            if heading_text and not any(term in heading_text.lower() for term in ["materials organised", "download", "contact", "need more"]):
+            if heading_text and not any(term in heading_text.lower() for term in ["materials organised", "download", "contact", "need more", "leave a reply"]):
                 is_exercise = any(word in heading_text.lower() for word in ["exercise", "quiz", "quizzes", "test"])
                 current_section = {
                     "category": heading_text,
@@ -62,7 +61,6 @@ for level, url in LEVEL_URLS.items():
                 }
                 sections.append(current_section)
         
-        # Collect links belonging to current section
         else:
             for a in el.find_all("a", href=True):
                 title = a.get_text(strip=True)
@@ -71,11 +69,10 @@ for level, url in LEVEL_URLS.items():
                 if not title or len(title) < 2 or not href.startswith("http"):
                     continue
 
-                # Filter out utility/shop links
                 if any(slug in href.lower() for slug in IGNORED_SLUGS):
                     continue
 
-                # Avoid duplicates within the level
+                # Prevent duplicates
                 already_exists = any(
                     any(item["url"] == href for item in s["items"]) 
                     for s in sections
@@ -87,15 +84,15 @@ for level, url in LEVEL_URLS.items():
                         "url": href
                     })
 
-    # Drop empty sections
+    # Remove empty sections
     cleaned_sections = [s for s in sections if len(s["items"]) > 0]
     all_curriculum[level] = cleaned_sections
     
     total_links = sum(len(s["items"]) for s in cleaned_sections)
-    print(f"Successfully scraped {level}: {len(cleaned_sections)} sections, {total_links} total lessons/exercises.")
+    print(f"Found {len(cleaned_sections)} sections with {total_links} links for {level}.")
     time.sleep(1)
 
 with open("curriculum.json", "w", encoding="utf-8") as f:
     json.dump(all_curriculum, f, indent=2, ensure_ascii=False)
 
-print("\nDone! curriculum.json updated with all levels A1 through C2.")
+print("Finished! Saved all levels to curriculum.json")
